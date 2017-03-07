@@ -7,10 +7,10 @@ The __directories__ are __bold__, _direct links_ to other TU/e-websites are _ita
   - index.php
   - enrolling.php
   - tuition_fees.php
-  - _ict_services.link_
-  - _myday.link_
   - timeslots.php
   - academic_agenda.php
+  - _ict_services.link_
+  - _myday.link_
   - __student_statute__
     - `/*Insert student statute structure*/`
   - __bachelor__
@@ -73,4 +73,4 @@ The __directories__ are __bold__, _direct links_ to other TU/e-websites are _ita
     - phd.php
     - pdeng.php
 
-Note that `Myday` and `ICT-services` are not listed, because these are direct links to other TU/e-websites. Also note that `student_statute` is a directory.
+Note that `student_statute` is a directory.
