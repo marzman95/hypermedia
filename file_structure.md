@@ -3,5 +3,6 @@
 #### Main directory starts with in site
 ###### [2IO80] DBL Hypermedia group 2, TU/e 2017
 
-site
-|-- index.php
+.
++-- site
+|   +-- index.php
