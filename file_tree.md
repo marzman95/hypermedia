@@ -3,7 +3,7 @@
 This file describes the tree of this project, home starts in "site"-dir.
 The __directories__ are __bold__, _direct links_ to other TU/e-websites are _italic_
 
-- __site__
+- __public_html__
   - index.php
   - enrolling.php
   - tuition_fees.php
