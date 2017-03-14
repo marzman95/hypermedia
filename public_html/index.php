@@ -1,9 +1,16 @@
+<!doctype HTML>
+<!-- [2IO80] DBL Hypermedia group 2, TU/e 2017 -->
 <?
-$lang = "nl";
-function ls($name) {
-  global $lang;
-  $stringy = $name . "<br>Lang: " . $lang;
-  echo $stringy;
-}
-  ls('test');
+  require('includes/lang_system.php');
 ?>
+<HTML>
+<head>
+  <title><? ls('title');?></title>
+</head>
+<body>
+  <a href="includes/lang_switch.php"><? ls('switch_lang'); ?></a>
+  This is a test to test a language switch system:
+  <h2>Test 1 (en): <? ls('first_string'); ?></h2>
+  <h2>Test 2 (nl): <? ls('first_string'); ?></h2>
+</body>
+</HTML>
