@@ -65,3 +65,27 @@ padding-left: 30px;
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.home-blocks {
+  margin-top: 3%;
+}
+
+.panelbachelor {
+  background-color: #81C500;
+  border-radius: 0;
+}
+
+.panelpre {
+  background-color: #FBA312;
+  border-radius: 0;
+}
+
+.panelmaster {
+  background-color: #CE0037;
+  border-radius: 0;
+}
+
+.panelpost {
+  background-color: #023F88;
+  border-radius: 0;
+}
