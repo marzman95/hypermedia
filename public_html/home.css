@@ -2,7 +2,7 @@
 .navbar {
   margin-bottom: 30px;
   border-radius: 0;
-  background: #0568A7;
+  background: #023F88;
   border: black 1px solid;
 }
 
@@ -11,6 +11,9 @@
    background-color: #59BEE7;
    margin-bottom: 0;
    padding: 0;
+   background-image: url("Images/campusco.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 /* Add a very light blue background to the document */
@@ -37,11 +40,12 @@ footer {
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter {
 color:          white;
 text-shadow:    none;
+padding-left: 30px;
 }
 
 .btn-block {
 	border-radius: 0;
-  box-shadow: 3px 3px 10px #888888
+  box-shadow: 3px 3px 4px 0px #888888
 }
 
 @font-face{
