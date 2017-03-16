@@ -2,21 +2,28 @@
 // [2IO80] DBL Hypermedia group 2, TU/e 2017
   session_start();
 
-  if(!isset($_SESSION['lang'])) {
-    header("location:../?err=no_lang_in_sess");
+  if(!isset($_SESSION['path'])) {
+    header("location:../?err=no_path_specified");
     exit();
   } else {
-    switch($_SESSION['lang']) {
-      case "nl_nl":
+    $path = $_SESSION['path'];
+    $redirect_string = "location:" . $path;
+    if(!isset($_SESSION['lang'])) {
+      header($redirect_string . "?err=no_lang_in_sess");
+      exit();
+    } else {
+      switch($_SESSION['lang']) {
+        case "nl_nl":
         $_SESSION['lang'] = "en_us";
         break;
-      case "en_us":
+        case "en_us":
         $_SESSION['lang'] = "nl_nl";
         break;
+      }
+      header($redirect_string . "?suc=switched_lang");
+      exit();
     }
-    header("location:../?suc=switched_lang");
+    header($redirect_string . "?err=smth_w_wrong");
     exit();
   }
-header("location:../?err=smth_w_wrong");
-exit();
-?>
+  ?>
