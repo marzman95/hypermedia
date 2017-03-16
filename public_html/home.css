@@ -1,12 +1,12 @@
 /* Remove the navbar's default rounded borders and increase the bottom margin */
 .navbar {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border-radius: 0;
 }
 
 /* Remove the jumbotron's default bottom margin and add a background color */
 .jumbotron {
-   background-color: #59BEE7;
+   background-color: #0094C6;
    margin-bottom: 0;
    padding: 0;
 }
@@ -20,9 +20,9 @@ footer {
   background-color: #e6faff;
   padding: 25px;
 }
-
-.center-block {
-   margin-top:40px;
+/* left navigation menu */
+  .center-block {
+   margin-top:10px;
    display:block;
 }
 
@@ -32,7 +32,7 @@ footer {
 
 /* Setting black border of 1px and setting background color */
 .navbar {
-	background: #0568A7;
+	background: #EEEEF1;
 	border: #000 1px solid;
 }
 
@@ -44,4 +44,23 @@ text-shadow:    none;
 
 .btn-block {
 	border-radius: 0;
+  box-shadow: 3px 3px 10px #888888
+}
+
+@font-face{
+  font-family: tuefont;
+  src: url(ufonts.com_meta-normal-roman.ttf);
+}
+
+.tuefont {
+  font-family: tuefont;
+}
+
+.textbox {
+  background-color: #edfe19;
+}
+
+.sidemenu {
+  margin-left: 10%;
+  margin-right: 10%;
 }
