@@ -2,11 +2,13 @@
 .navbar {
   margin-bottom: 30px;
   border-radius: 0;
+  background: #0568A7;
+  border: black 1px solid;
 }
 
 /* Remove the jumbotron's default bottom margin and add a background color */
 .jumbotron {
-   background-color: #0094C6;
+   background-color: #59BEE7;
    margin-bottom: 0;
    padding: 0;
 }
@@ -30,11 +32,6 @@ footer {
   margin-bottom: 25px;
 }
 
-/* Setting black border of 1px and setting background color */
-.navbar {
-	background: #EEEEF1;
-	border: #000 1px solid;
-}
 
 /* Making text color black */
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter {
