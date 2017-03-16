@@ -4,13 +4,16 @@
   border-radius: 0;
 }
 
-/* Remove the jumbotron's default bottom margin */
- .jumbotron {
-   background-color: #e6faff;
-  }
+/* Remove the jumbotron's default bottom margin and add a background color */
+.jumbotron {
+   background-color: #0094C6;
+   margin-bottom: 0;
+   padding: 0;
+}
 
+/* Add a very light blue background to the document */
 body {
-  background-color: lightblue;
+  background-color: #F6FFFF;
 }
 /* Add a gray background color and some padding to the footer */
 footer {
@@ -25,4 +28,20 @@ footer {
 
 .navbar-header{
   margin-bottom: 25px;
+}
+
+/* Setting black border of 1px and setting background color */
+.navbar {
+	background: #EEEEF1;
+	border: #000 1px solid;
+}
+
+/* Making text color black */
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+color:          black;
+text-shadow:    none;
+}
+
+.btn-block {
+	border-radius: 0;
 }
