@@ -21,16 +21,9 @@ body {
   background-color: #F6FFFF;
 }
 /* Add a gray background color and some padding to the footer */
-footer #footerlinks{
-  background-color: #023F88;
-  padding: 30px;
-  color: white;
-}
-
-footer #footercontact{
-  background-color: #000000;
-  padding: 30px;
-  color: white;
+footer {
+  background-color: #e6faff;
+  padding: 25px;
 }
 /* left navigation menu */
   .center-block {
@@ -50,14 +43,9 @@ text-shadow:    none;
 padding-left: 30px;
 }
 
-.btn {
-  border-radius: 0;
-  box-shadow: 3px 3px 4px 0px #888888;
-}
-
-.btn-group {
-  margin-bottom: 10px;
-  padding-right: 20px;
+.btn-block {
+	border-radius: 0;
+  box-shadow: 3px 3px 4px 0px #888888
 }
 
 @font-face{
@@ -77,6 +65,7 @@ padding-left: 30px;
   margin-left: 10%;
   margin-right: 10%;
 }
+<<<<<<< HEAD
 
 .home-blocks {
   margin-top: 3%;
@@ -109,3 +98,5 @@ padding-left: 30px;
 >>>>>>> 988972988f757047d16c6500499bf931a90f8003
   border-radius: 0;
 }
+=======
+>>>>>>> parent of 90997fd... Added susan's stuff
