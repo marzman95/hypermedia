@@ -21,9 +21,16 @@ body {
   background-color: #F6FFFF;
 }
 /* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #e6faff;
-  padding: 25px;
+footer #footerlinks{
+  background-color: #023F88;
+  padding: 30px;
+  color: white;
+}
+
+footer #footercontact{
+  background-color: #000000;
+  padding: 30px;
+  color: white;
 }
 /* left navigation menu */
   .center-block {
@@ -43,9 +50,14 @@ text-shadow:    none;
 padding-left: 30px;
 }
 
-.btn-block {
-	border-radius: 0;
-  box-shadow: 3px 3px 4px 0px #888888
+.btn {
+  border-radius: 0;
+  box-shadow: 3px 3px 4px 0px #888888;
+}
+
+.btn-group {
+  margin-bottom: 10px;
+  padding-right: 20px;
 }
 
 @font-face{
@@ -64,4 +76,28 @@ padding-left: 30px;
 .sidemenu {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.home-blocks {
+  margin-top: 3%;
+}
+
+.panelbachelor {
+  background-color: #81C500;
+  border-radius: 0;
+}
+
+.panelpre {
+  background-color: #FBA312;
+  border-radius: 0;
+}
+
+.panelmaster {
+  background-color: #009BAA;
+  border-radius: 0;
+}
+
+.panelpost {
+  background-color: #CE0037;
+  border-radius: 0;
 }
