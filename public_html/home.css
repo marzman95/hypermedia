@@ -93,11 +93,19 @@ padding-left: 30px;
 }
 
 .panelmaster {
+<<<<<<< HEAD
   background-color: #009BAA;
+=======
+  background-color: #CE0037;
+>>>>>>> 988972988f757047d16c6500499bf931a90f8003
   border-radius: 0;
 }
 
 .panelpost {
+<<<<<<< HEAD
   background-color: #CE0037;
+=======
+  background-color: #023F88;
+>>>>>>> 988972988f757047d16c6500499bf931a90f8003
   border-radius: 0;
 }
