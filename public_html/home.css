@@ -1,6 +1,5 @@
 /* Remove the navbar's default rounded borders and increase the bottom margin */
 .navbar {
-  margin-bottom: 50px;
   border-radius: 0;
 }
 
@@ -19,10 +18,33 @@ footer {
 }
 
   .center-block {
-   margin-top:40px;
+   margin-top:60px;
    display:block;
 }
 
 .navbar-header{
-  margin-bottom: 25px;
+  margin-bottom: 40px;
+}
+
+table, tr {
+  border-spacing: 5px;
+  background-color: lightgreen;
+
+}
+
+td{
+  background-color: lightgreen;
+  border-spacing: 5px;
+
+}
+
+#majorheader {
+}
+
+#fixedmenu{ 
+}
+
+#fixednavbar{
+}
+#fixedcontent{
 }
