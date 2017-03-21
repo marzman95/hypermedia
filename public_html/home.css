@@ -11,9 +11,10 @@
    background-color: #59BEE7;
    margin-bottom: 0;
    padding: 0;
-   background-image: url("Images/campusco.jpg");
+   background-image: url("Images/Atlas.jpg");
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: bottom left;
 }
 
 /* Add a very light blue background to the document */
@@ -100,4 +101,9 @@ padding-left: 30px;
 .panelpost {
   background-color: #023F88;
   border-radius: 0;
+}
+.backgroundimg {
+	background-image: url("Images/Atlas.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
 }
