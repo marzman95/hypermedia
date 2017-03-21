@@ -29,14 +29,17 @@ body {
 /* Add a gray background color and some padding to the footer */
 footer #footerlinks{
   background-color: #023F88;
-  padding: 30px;
+  padding: 20px;
   color: white;
 }
 
 footer #footercontact{
   background-color: #000000;
-  padding: 30px;
+  padding: 20px;
   color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
 }
 /* left navigation menu */
   .center-block {
@@ -61,7 +64,33 @@ padding-left: 30px;
 }
 .btn {
   border-radius: 0;
-  box-shadow: 3px 3px 4px 0px #888888;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\203a';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .btn-group {
@@ -94,6 +123,7 @@ padding-left: 30px;
 .panelbachelor {
   background-color: #008675;
   border-radius: 0;
+  margin-top: 0px;
 }
 
 .panelpre {
