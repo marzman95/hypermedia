@@ -1,3 +1,8 @@
+@keyframes gradient-button{
+	from{}
+	to {background: #0094C6;}
+}
+
 /* Remove the navbar's default rounded borders and increase the bottom margin */
 .navbar {
   margin-bottom: 30px;
@@ -45,12 +50,15 @@ footer #footercontact{
 
 
 /* Making text color black */
-.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+.navbar .nav > li > a {
 color:          white;
 text-shadow:    none;
 padding-left: 30px;
 }
-
+.navbar .nav > li > a:hover{
+	color: black;
+	animation: gradient-button 0.5s forwards;
+}
 .btn {
   border-radius: 0;
   box-shadow: 3px 3px 4px 0px #888888;
