@@ -31,6 +31,7 @@ footer #footerlinks{
   background-color: #023F88;
   padding: 20px;
   color: white;
+  margin: 0px;
 }
 
 footer #footercontact{
@@ -40,6 +41,7 @@ footer #footercontact{
   position: absolute;
   width: 100%;
   bottom: 0px;
+  margin: 0px;
 }
 /* left navigation menu */
   .center-block {
@@ -116,9 +118,9 @@ padding-left: 30px;
   margin-right: 10%;
 }
 
-.home-blocks {
+/*.home-blocks {
   margin-top: 3%;
-}
+}*/
 
 .panelbachelor {
   background-color: #008675;
@@ -144,4 +146,9 @@ padding-left: 30px;
 	background-image: url("Images/Atlas.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
+}
+
+.panel-heading {
+	color: white;
+	font: bold;
 }
