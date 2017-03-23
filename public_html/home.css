@@ -38,11 +38,12 @@ footer #footercontact{
   background-color: #000000;
   padding: 20px;
   color: white;
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0px;
   margin: 0px;
 }
+
 /* left navigation menu */
   .center-block {
    margin-top:10px;
