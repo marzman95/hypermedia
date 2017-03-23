@@ -10,7 +10,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body onLoad="checkSize()">
+
+<button type="button" id="menuopen" onClick="slideOut()"></button>
 
 <div class="jumbotron">
 <div class="container-fluid">
@@ -44,7 +46,20 @@
     </ul>
   </div>
 </nav>
-<div class="container-fluid">
+
+<div id="slidermenu" >
+	<button type="button" id="menuclose" onClick="decolorButtons()"></button>
+    <div id="hidable">
+		<button type="button" id="menubtn1">Professional skills</button>
+		<button type="button" id="menubtn2">Regulations</button>
+		<button type="button" id="menubtn3">Coaching</button>
+		<button type="button" id="menubtn4">Future students</button>
+		<button type="button" id="menubtn5">USE</button>
+		<button type="button" id="menubtn6">Bachelor honors</button>
+    </div>
+</div>
+
+<div class="container-fluid" id="more">
   <div class="row">
     <div class="col-sm-3">
       <div class="center-block tuefont sidemenu">
@@ -72,5 +87,84 @@
 </div>
 </footer>
 
+<script>
+
+function checkSize() {
+ 	if($(window).width() <= 650) {
+		$('#more').hide();
+	    $('#menuopen').show();
+	} else {
+		$('#menuopen').hide();
+		$('#more').show();
+	}
+}
+
+window.onresize = function(event) {
+	checkSize();
+}
+
+function slideOut() {
+	  document.getElementById("slidermenu").id='slidermenulong';
+	  document.getElementsByTagName("body")[0].id='dark';
+	  setTimeout(addButtons, 250);
+}
+
+function addButtons() {
+      document.getElementById("menubtn1").style.visibility='visible';
+      document.getElementById("menubtn2").style.visibility='visible';
+      document.getElementById("menubtn3").style.visibility='visible';
+      document.getElementById("menubtn4").style.visibility='visible';
+      document.getElementById("menubtn5").style.visibility='visible';
+      document.getElementById("menubtn6").style.visibility='visible';
+      setTimeout(colorButtons, 250);
+}
+
+function colorButtons() {
+	  document.getElementById("menubtn1").style.color='#000000';
+      document.getElementById("menubtn2").style.color='#000000';
+      document.getElementById("menubtn3").style.color='#000000';
+      document.getElementById("menubtn4").style.color='#000000';
+      document.getElementById("menubtn5").style.color='#000000';
+      document.getElementById("menubtn6").style.color='#000000';
+	  document.getElementById("menubtn1").style.background='#3071A9';
+      document.getElementById("menubtn2").style.background='#3071A9';
+      document.getElementById("menubtn3").style.background='#3071A9';
+      document.getElementById("menubtn4").style.background='#3071A9';
+      document.getElementById("menubtn5").style.background='#3071A9';
+      document.getElementById("menubtn6").style.background='#3071A9';
+}
+
+function decolorButtons() {
+	  document.getElementById("menubtn1").style.color='#009BAA';
+      document.getElementById("menubtn2").style.color='#009BAA';
+      document.getElementById("menubtn3").style.color='#009BAA';
+      document.getElementById("menubtn4").style.color='#009BAA';
+      document.getElementById("menubtn5").style.color='#009BAA';
+      document.getElementById("menubtn6").style.color='#009BAA';
+	  document.getElementById("menubtn1").style.background='#009BAA';
+      document.getElementById("menubtn2").style.background='#009BAA';
+      document.getElementById("menubtn3").style.background='#009BAA';
+      document.getElementById("menubtn4").style.background='#009BAA';
+      document.getElementById("menubtn5").style.background='#009BAA';
+      document.getElementById("menubtn6").style.background='#009BAA';
+      setTimeout(removeButtons, 250);
+}
+
+function removeButtons() {
+	  document.getElementById("menubtn1").style.visibility='hidden';
+      document.getElementById("menubtn2").style.visibility='hidden';
+      document.getElementById("menubtn3").style.visibility='hidden';
+      document.getElementById("menubtn4").style.visibility='hidden';
+      document.getElementById("menubtn5").style.visibility='hidden';
+      document.getElementById("menubtn6").style.visibility='hidden';
+      setTimeout(slideIn, 250);
+}
+
+function slideIn() {
+	  document.getElementById("slidermenulong").id='slidermenu';
+	  document.getElementById("dark").id='light';
+}
+
+</script>
 </body>
 </html>

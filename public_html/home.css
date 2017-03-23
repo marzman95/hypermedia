@@ -152,3 +152,164 @@ padding-left: 30px;
 	color: white;
 	font: bold;
 }
+
+/* Default background color (with transition) */
+#light {
+	background-color: #F6FFFF;
+	-webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+/* Darkened background color (with transition */
+#dark {
+	background-color: #8aacb8;
+	-webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+/* Compact menu for the mobile version */
+#slidermenu {
+    background-color: #009BAA;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    }
+
+/* Extended menu for the mobile version */
+#slidermenulong {
+	background-color: #009BAA;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menuopen {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	border: none;
+	z-index: 1;
+	background: #3071A9 url("https://image.flaticon.com/icons/png/512/56/56763.png") no-repeat center center;
+	background-size: 80% 80%;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menuclose {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	color: #009BAA;
+	border: none;
+	background: #009BAA url("http://www.sassysredhouse.com/wp-content/plugins/itro-popup/images/close-icon.png") no-repeat center center;
+    background-size: 80% 80%;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menubtn1 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 8%;
+	visibility: hidden;
+	background-color: #009BAA;
+	color: #009BAA;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menubtn2 {
+	position: absolute;
+	left: 0%;
+	top: 16%;
+	width: 100%;
+	height: 8%;
+	visibility: hidden;
+	background-color: #009BAA;
+	color: #009BAA;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menubtn3 {
+	position: absolute;
+	left: 0%;
+	top: 32%;
+	width: 100%;
+	height: 8%;
+	visibility: hidden;
+	background-color: #009BAA;
+	color: #009BAA;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menubtn4 {
+	position: absolute;
+	left: 0%;
+	top: 48%;
+	width: 100%;
+	height: 8%;
+	visibility: hidden;
+	background-color: #009BAA;
+	color: #009BAA;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menubtn5 {
+	position: absolute;
+	left: 0%;
+	top: 64%;
+	width: 100%;
+	height: 8%;
+	visibility: hidden;
+	background-color: #009BAA;
+	color: #009BAA;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menubtn6 {
+	position: absolute;
+	left: 0%;
+	top: 80%;
+	width: 100%;
+	height: 8%;
+    visibility: hidden;
+	background-color: #009BAA;
+	color: #009BAA;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#hidable {
+	position: relative;
+	top: 10%;
+	left:10%;
+	width:80%;
+	height:95%;
+}
