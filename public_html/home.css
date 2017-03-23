@@ -200,9 +200,12 @@ padding-left: 30px;
 	top: 0px;
 	width: 50px;
 	height: 50px;
+	padding: none;
 	border: none;
 	z-index: 1;
-	background: #3071A9 url("https://image.flaticon.com/icons/png/512/56/56763.png") no-repeat center center;
+	background: #6579A3;
+	color: #000;
+	/*background: #3071A9 url("https://image.flaticon.com/icons/png/512/56/56763.png") no-repeat center center;*/
 	background-size: 80% 80%;
 	-webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -214,18 +217,17 @@ padding-left: 30px;
 	top: 0px;
 	width: 50px;
 	height: 50px;
-	color: #009BAA;
+	background: #009BAA;
+	color: #black;
 	border: none;
-	background: #009BAA url("http://www.sassysredhouse.com/wp-content/plugins/itro-popup/images/close-icon.png") no-repeat center center;
-    background-size: 80% 80%;
 	-webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-#menubtn1 {
-	position: absolute;
+.menubtn {
+	position: relative;
 	left: 0%;
-	top: 0%;
+	margin-top: 4%;
 	width: 100%;
 	height: 8%;
 	visibility: hidden;
@@ -236,75 +238,6 @@ padding-left: 30px;
     transition: all 0.5s;
 }
 
-#menubtn2 {
-	position: absolute;
-	left: 0%;
-	top: 16%;
-	width: 100%;
-	height: 8%;
-	visibility: hidden;
-	background-color: #009BAA;
-	color: #009BAA;
-	border: none;
-	-webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-#menubtn3 {
-	position: absolute;
-	left: 0%;
-	top: 32%;
-	width: 100%;
-	height: 8%;
-	visibility: hidden;
-	background-color: #009BAA;
-	color: #009BAA;
-	border: none;
-	-webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-#menubtn4 {
-	position: absolute;
-	left: 0%;
-	top: 48%;
-	width: 100%;
-	height: 8%;
-	visibility: hidden;
-	background-color: #009BAA;
-	color: #009BAA;
-	border: none;
-	-webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-#menubtn5 {
-	position: absolute;
-	left: 0%;
-	top: 64%;
-	width: 100%;
-	height: 8%;
-	visibility: hidden;
-	background-color: #009BAA;
-	color: #009BAA;
-	border: none;
-	-webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-#menubtn6 {
-	position: absolute;
-	left: 0%;
-	top: 80%;
-	width: 100%;
-	height: 8%;
-    visibility: hidden;
-	background-color: #009BAA;
-	color: #009BAA;
-	border: none;
-	-webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
 
 #hidable {
 	position: relative;
@@ -312,4 +245,8 @@ padding-left: 30px;
 	left:10%;
 	width:80%;
 	height:95%;
+}
+.glyphicon-menu-hamburger {
+	margin: 0px;
+	font-size: 36px;
 }
