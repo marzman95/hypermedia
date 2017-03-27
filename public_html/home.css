@@ -36,20 +36,27 @@ footer #footerlinks{
 
 footer #footercontact{
   background-color: black;
-  padding: 5px;
+  padding: 0px;
   color: white;
   position: relative;
   width: 100%;
   bottom: 0px;
   margin: 0px;
+	overflow: hidden;
 }
 
-#footercontact p.left {
+.col {
+  float: left;
+  padding: 5px 0 0 0px;
+  width: 440px;
+}
+
+.col:first-child {
+  padding: 5px 0 0 0;
 	float: left;
+	margin-bottom: 10px;
 }
-#footercontact p.right {
-	float: right;
-}
+
 h2 {
 	font-weight: bold;
 	font-size: 23px;
@@ -299,7 +306,8 @@ padding-left: 30px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 1.0;
+		color: #CE0037;
 }
 .fa-facebook {
     background: white;
