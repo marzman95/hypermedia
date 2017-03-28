@@ -356,3 +356,16 @@ padding-left: 30px;
 .font-smaller {
 	font-size: 1.1em;
 }
+
+.bachelor-block {
+	background: #666;
+	text-decoration: none;
+	font-family: tuefont;
+	color: white;
+	text-align: center;
+	height: 100px;	
+	padding-top: 20px;
+}
+a .bachelor-block:hover {
+	background: #777;
+}
