@@ -1,6 +1,6 @@
 @keyframes gradient-button{
 	from{}
-	to {background: #08458E;}
+	to {background: #1F5397;}
 }
 
 /* Remove the navbar's default rounded borders and increase the bottom margin */
@@ -29,8 +29,8 @@ body {
 /* Add a gray background color and some padding to the footer */
 footer #footerlinks{
   background-color: #023F88;
-  padding: 20px;
   color: white;
+  padding: 1%;
   margin: 0px;
 }
 
@@ -99,7 +99,7 @@ font-size: 15px;
 padding-left: 30px;
 }
 .navbar .nav > li > a:hover{
-	color: black;
+	color: white;
 	animation: gradient-button 0.5s forwards;
 }
 
