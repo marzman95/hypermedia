@@ -235,8 +235,8 @@ padding-left: 30px;
 
 #menuopen {
 	position: fixed;
-	left: 0;
-	top: 15%;
+	left: 5px;
+	top: 5px;
 	width: 50px;
 	height: 50px;
 	padding: none;
@@ -244,7 +244,6 @@ padding-left: 30px;
 	z-index: 1;
 	background: #023F88;
 	color: white;
-	/*background: #3071A9 url("https://image.flaticon.com/icons/png/512/56/56763.png") no-repeat center center;*/
 	background-size: 80% 80%;
 	-webkit-transition: all 0.5s;
     transition: all 0.5s;
