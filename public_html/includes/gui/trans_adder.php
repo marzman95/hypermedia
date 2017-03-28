@@ -1,4 +1,4 @@
-<?
+<?php
 require('../sqlConnect.php');
 
 if ((!isset($_POST['name'])) || (!isset($_POST['page'])) || (!isset($_POST['nl_string'])) || (!isset($_POST['en_string']))) {

@@ -1,4 +1,4 @@
-<?
+<?php
 require('sqlSecret.php');
 
 $connection = new mysqli($_SQL['HOST'], $_SQL['USER'], $_SQL['PASS'], $_SQL['DB']);

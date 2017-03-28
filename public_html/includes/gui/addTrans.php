@@ -4,7 +4,7 @@
 </head>
 <body>
   <h1>Translation text adder for DB</h1>
-  <?
+  <?php
     if (isset($_GET['notif'])) {
       $notif = $_GET['notif'];
       switch ($notif) {

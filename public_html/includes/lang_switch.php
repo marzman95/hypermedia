@@ -1,4 +1,4 @@
-<?
+<?php
 // [2IO80] DBL Hypermedia group 2, TU/e 2017
   session_start();
 

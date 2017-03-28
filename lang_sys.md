@@ -13,7 +13,7 @@ the language system.
 In principle you don't need anything of the functions, except for the `ls($name)`-function.
 
 #### Fetching language strings
-To get a string of text, call it by opening php with `<?` (this is a short version of `<?php`).
+To get a string of text, call it by opening php with `<?php`.
 Then call `ls($name)` where `$name` is a string containing the name of the text variable.
 
 ### Adding translations
