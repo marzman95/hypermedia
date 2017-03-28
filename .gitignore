@@ -1,0 +1,5 @@
+# Gitignore-file
+# public_html/includes/sqlSecret.php
+.ftpconfig
+public_html/includes/sqlSecret.php
+public_html/includes/sqlSecret.php

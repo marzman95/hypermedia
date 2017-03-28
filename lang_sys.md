@@ -7,8 +7,7 @@ in a session.
 
 ### Prerequisites
 At the start of each page run php with `require('includes/lang_system.php');` to import
-the language system. In a later stage this will be changed so also other functions can be
-implemented.
+the language system.
 
 ### Functions
 In principle you don't need anything of the functions, except for the `ls($name)`-function.
@@ -17,7 +16,11 @@ In principle you don't need anything of the functions, except for the `ls($name)
 To get a string of text, call it by opening php with `<?` (this is a short version of `<?php`).
 Then call `ls($name)` where `$name` is a string containing the name of the text variable.
 
-### Language files
-Currently two example language files are in the **langfiles** directory. A language file
-consists of an array named `$l_data` with keys that are names of the string, and values
-with the right translations. After the array-statement the file returns the array.
+### Adding translations
+Via a special GUI it is possible to insert a new string to the database. That GUI is available on the *public_html/includes/gui/addTrans.php* (an GUI-overview will come later). Using that form you can insert a new translation into the database using:
+- **name**: Name of the new string, **without spaces!**.
+- **page**: *URL* of the page where the text-string is located, starting in *public_html*. If multiple, only use the most important one.
+- **nl_string**: Dutch translation of the text-string.
+- **en_string**: English translation of the text-string.
+
+When clicking the *add*-button you are redirected to another page. This page is still displayed for debugging purposes. To cancel this debugging-log, uncomment *line 29* and comment *line 30*.

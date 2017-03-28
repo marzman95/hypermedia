@@ -10,13 +10,14 @@
 <body>
   <?
   $path = $_SERVER['SCRIPT_FILENAME'];
+  // Volgende werkt alleen op de wwwis-server
   $path = str_replace("/home/dblh2_2017/public_html", "/~dblh2_2017", $path);
   $_SESSION['path'] = $path;
   ?>
 
-  <a href="includes/lang_switch.php"><? ls('switch_lang'); ?></a>
+  <a href="includes/lang_switch.php"><? ls('switch_language'); ?></a>
   This is a test to test a language switch system:
-  <h2>Test 1 (en): <? ls('first_string'); ?></h2>
-  <h2>Test 2 (nl): <? ls('first_string'); ?></h2>
+  <h2>Test 1 (en): <? ls('test'); ?></h2>
+  <h2>Test 2 (nl): <? ls('test'); ?></h2>
 </body>
 </HTML>
