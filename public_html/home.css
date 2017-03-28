@@ -235,8 +235,8 @@ padding-left: 30px;
 
 #menuopen {
 	position: fixed;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 15%;
 	width: 50px;
 	height: 50px;
 	padding: none;
