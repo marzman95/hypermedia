@@ -1,6 +1,6 @@
 @keyframes gradient-button{
 	from{}
-	to {background: #0094C6;}
+	to {background: #08458E;}
 }
 
 /* Remove the navbar's default rounded borders and increase the bottom margin */
@@ -38,7 +38,6 @@ footer #footercontact{
   background-color: black;
   padding: 0px;
   color: white;
-  position: relative;
   width: 100%;
   bottom: 0px;
   margin: 0px;
@@ -336,4 +335,16 @@ padding-left: 30px;
 
 .flag:hover {
 	opacity: 0.8;
+}
+
+.caret {
+	color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle {
+	background-color: #023F88;
+	color:white;
+	border:none;
 }
