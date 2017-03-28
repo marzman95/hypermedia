@@ -107,6 +107,7 @@ padding-left: 30px;
   border-radius: 0;
   transition: all 0.5s;
   cursor: pointer;
+  text-align:left;
 }
 
 .btn span {
@@ -118,7 +119,7 @@ padding-left: 30px;
 
 .btn span:after {
   content: '\203a';
-  position: absolute;
+  position: relative;
   opacity: 0;
   top: 0;
   right: -20px;
@@ -154,12 +155,9 @@ padding-left: 30px;
 
 .sidemenu {
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 0%;
+  padding: none;
 }
-
-/*.home-blocks {
-  margin-top: 3%;
-}*/
 
 .panelbachelor {
   background-color: #008675;
@@ -353,4 +351,8 @@ padding-left: 30px;
 	background-color: #023F88;
 	color:white;
 	border:none;
+}
+
+.font-smaller {
+	font-size: 1.1em;
 }
