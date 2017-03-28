@@ -1,3 +1,8 @@
+<?php
+  require('../sqlConnect.php');
+  $pages_query = "SELECT name, directory FROM pages";
+  $rPages = $connection->query($pages_query);
+?>
 <html>
 <head>
   <title>Add translations to DB</title>
@@ -17,13 +22,19 @@
       }
   }
   ?>
-  <!--<a href="overview.php">Go to overview</a>-->
+  <a href="index.php">Go to overview</a>
   <form action="trans_adder.php" method="POST">
     <table border="0">
       <tr><td>Name:</td><td><input type="text" name="name" /></td>
         <td style="size:10pt; color:red">Name of the string: WITHOUT SPACES!</td></tr>
-      <tr><td>Page:</td><td><input type="text" name="page" /></td>
-        <td style="size:10pt; color:red">URL containing the string</td></tr>
+      <tr><td>Page:</td><td><select name="page">
+        <?php
+          foreach ($rPages as $page) {
+            $page_url = $page['directory'] . $page['name'];
+            echo "<option value='" . $page_url . "'>" . $page_url . "</option>";
+          }
+        ?>
+        </td><td style="size:10pt; color:red">URL containing the string</td></tr>
       <tr><td>Dutch translation:</td><td><input type="text" name="nl_string" /></td>
         <td style="size:10pt; color:red">The Dutch translation</td></tr>
       <tr><td>English translation:</td><td><input type="text" name="en_string" /></td>
