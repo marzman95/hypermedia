@@ -45,22 +45,25 @@
 <div id="slidermenu" >
 	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
     <div id="hidable">
-		<button type="button" class="menubtn tuefont">Curriculum</button>
-		<button type="button" class="menubtn tuefont">Final project</button>
-    <button type="button" class="menubtn tuefont">Associated Masters</button>
-		<button type="button" class="menubtn tuefont">Exams</button>
-    <button type="button" class="menubtn tuefont">Deadlines</button>
-    <button type="button" class="menubtn tuefont">Contact</button>
+		<button type="button" onClick="document.getElementById('curriculum').scrollIntoView();" class="menubtn tuefont">Curriculum</button>
+		<button type="button" onClick="document.getElementById('project').scrollIntoView();" class="menubtn tuefont">Final project</button>
+    <button type="button" onClick="document.getElementById('asmasters').scrollIntoView();" class="menubtn tuefont">Associated Masters</button>
+		<button type="button" onClick="document.getElementById('exams').scrollIntoView();" class="menubtn tuefont">Exams</button>
+    <button type="button" onClick="document.getElementById('deadlines').scrollIntoView();" class="menubtn tuefont">Deadlines</button>
+    <button type="button" onClick="document.getElementById('contant').scrollIntoView();" class="menubtn tuefont">Contact</button>
     </div>
 </div>
 
 <nav class="navbar navbar-default text-black">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav tuefont">
+  <button type=""button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    Show Menu<span class="caret"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav tuefont">
       <li><a href="home.html">Home</a></li>
       <li><a href="bachelor.html">Bachelor</a></li>
       <li><a href="#">Pre-Master</a></li>
-      <li><a href="cs.html">Master</a></li>
+      <li><a href="#">Master</a></li>
       <li><a href="#">Post-Master</a></li>
     </ul>
   </div>
