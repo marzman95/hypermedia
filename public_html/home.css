@@ -1,0 +1,405 @@
+@keyframes gradient-button{
+	from{}
+	to {background: #1F5397;}
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+  margin-bottom: 30px;
+  border-radius: 0;
+  background: #023F88;
+  border: black 1px solid;
+}
+
+#backtotop{
+	 display: none; /* Hidden by default */
+	 width: 150px;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #CE0037; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+/* Remove the jumbotron's default bottom margin and add a background color */
+.jumbotron {
+   background-color: #59BEE7;
+   margin-bottom: 0;
+   padding: 0;
+   background-image: url("Images/Atlas.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top right;
+}
+
+/* Add a very light blue background to the document */
+body {
+  background-color: #F6FFFF;
+}
+/* Add a gray background color and some padding to the footer */
+footer #footerlinks{
+  background-color: #023F88;
+  color: white;
+  padding: 1%;
+  margin: 0px;
+}
+
+footer #footercontact{
+  background-color: black;
+  padding: 0px;
+  color: white;
+  width: 100%;
+  bottom: 0px;
+  margin: 0px;
+	overflow: hidden;
+}
+
+.col {
+  float: left;
+  padding: 5px 0 0 0px;
+  width: 440px;
+}
+
+.col:first-child {
+  padding: 5px 0 0 0;
+	float: left;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 23px;
+}
+h3 {
+	font-weight: bold;
+	margin-top: 0px;
+	font-size: 16px;
+	display: inline-block;
+	margin-right: 140px;
+
+}
+
+h4 {
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 65px;
+	margin-bottom: 3px;
+}
+
+h5 {
+	margin-top: 0px;
+	font-size: 16px;
+}
+/* left navigation menu */
+  .center-block {
+   margin-top:10px;
+   display:block;
+}
+
+h6 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.navbar-header{
+  margin-bottom: 25px;
+}
+
+
+/* Making text color black */
+.navbar .nav > li > a {
+color:          white;
+text-shadow:    none;
+font-size: 15px;
+padding-left: 30px;
+}
+.navbar .nav > li > a:hover{
+	color: white;
+	animation: gradient-button 0.5s forwards;
+}
+
+.btn {
+  border-radius: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-align:left;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\203a';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-group {
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+@font-face{
+  font-family: tuefont;
+  src: url(ufonts.com_meta-normal-roman.ttf);
+}
+
+.tuefont {
+  font-family: tuefont;
+}
+
+.textbox {
+  background-color: #edfe19;
+}
+
+.sidemenu {
+  margin-left: 10%;
+  margin-right: 0%;
+  padding: none;
+}
+
+.panelbachelor {
+  background-color: #006d5f;
+  border-radius: 0;
+  margin-top: 0px;
+}
+
+.panelpre {
+  background-color: #006d5f;
+  border-radius: 0;
+}
+
+.panelmaster {
+  background-color: #006d5f;
+  border-radius: 0;
+}
+
+.panelpost {
+  background-color: #006d5f;
+  border-radius: 0;
+}
+.backgroundimg {
+	background-image: url("Images/Atlas.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.panel-heading {
+	color: white;
+	font-size: 17px;
+}
+
+/* Default background color (with transition) */
+#light {
+	background-color: #F6FFFF;
+	-webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+/* Darkened background color (with transition */
+#dark {
+	background-color: #8aacb8;
+	-webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+/* Compact menu for the mobile version */
+#slidermenu {
+    background-color: #023F88;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    }
+
+/* Extended menu for the mobile version */
+#slidermenulong {
+	background-color: #023F88;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menuopen {
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	width: 50px;
+	height: 50px;
+	padding: none;
+	border: none;
+	z-index: 1;
+	background: #023F88;
+	color: white;
+	background-size: 80% 80%;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menuclose {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	background: #023F88;
+	color: white;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.menubtn {
+	position: relative;
+	left: 0%;
+	margin-top: 4%;
+	width: 100%;
+	height: 8%;
+	visibility: hidden;
+	background-color: white;
+	color: white;
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.menubtn:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+
+#hidable {
+	position: relative;
+	top: 10%;
+	left:10%;
+	width:80%;
+	height:95%;
+}
+.glyphicon-menu-hamburger {
+	margin: 0px;
+	font-size: 36px;
+	color: white;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 1.0;
+		color: #CE0037;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+
+.fa-twitter {
+    background: white;
+    color: black;
+}
+
+.fa-google-plus {
+    background: white;
+    color: black;
+}
+
+.fa-youtube {
+    background: white;
+    color: black;
+}
+
+.fa-linkedin {
+    background: white;
+    color: black;
+}
+
+.flag {
+	width:14%;
+	float:left;
+	margin-right:10px;
+}
+
+.flag:hover {
+	opacity: 0.8;
+}
+
+.caret {
+	color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle {
+	background-color: #023F88;
+	color:white;
+	border:none;
+}
+
+.font-smaller {
+	font-size: 1.1em;
+}
+
+.bachelor-block {
+	background: #666;
+	text-decoration: none;
+	font-family: tuefont;
+	color: white;
+	text-align: center;
+	height: 100px;
+	padding-top: 20px;
+}
+a .bachelor-block:hover {
+	background: #777;
+}
+
+/*buttons on the home page*/
+.mainbtn {
+	background-color: rgba(0, 134, 117, 100);
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.mainbtn:hover {
+	background-color: rgba(0, 134, 117, 0);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}

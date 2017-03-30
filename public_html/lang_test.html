@@ -1,0 +1,19 @@
+<!doctype HTML>
+<HTML>
+<head>
+  <title>Language test</title>
+</head>
+<body>
+  This is a test to test a language switch system:
+  <?
+  $lang = "nl";
+  function ls($name) {
+    global $lang;
+    $stringy = $name . "<br>Lang: " . $lang;
+    echo $stringy;
+  }
+    ls('test');
+  ?>
+<h1><? ls('Header'); ?></h1>
+</body>
+</HTML>
