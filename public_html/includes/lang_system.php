@@ -33,6 +33,7 @@ function ls($name) {
   $resulted_row = $connection->query($query);
   $results = $resulted_row->fetch_assoc();
   //print_r($results);
-  echo $results[$col];
+  $with_html = $results[$col];
+  echo html_entity_decode($with_html);
 }
 ?>
