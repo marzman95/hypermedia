@@ -101,6 +101,11 @@ h5 {
    display:block;
 }
 
+h6 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .navbar-header{
   margin-bottom: 25px;
 }
@@ -175,23 +180,23 @@ padding-left: 30px;
 }
 
 .panelbachelor {
-  background-color: #008675;
+  background-color: #006d5f;
   border-radius: 0;
   margin-top: 0px;
 }
 
 .panelpre {
-  background-color: #008675;
+  background-color: #006d5f;
   border-radius: 0;
 }
 
 .panelmaster {
-  background-color: #008675;
+  background-color: #006d5f;
   border-radius: 0;
 }
 
 .panelpost {
-  background-color: #008675;
+  background-color: #006d5f;
   border-radius: 0;
 }
 .backgroundimg {
@@ -383,4 +388,18 @@ padding-left: 30px;
 }
 a .bachelor-block:hover {
 	background: #777;
+}
+
+/*buttons on the home page*/
+.mainbtn {
+	background-color: rgba(0, 134, 117, 100);
+	border: none;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.mainbtn:hover {
+	background-color: rgba(0, 134, 117, 0);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
