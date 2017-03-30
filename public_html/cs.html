@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Computer Science</title>
@@ -16,7 +16,7 @@
 
 </head>
 <body onLoad="checkSize()">
-	
+
 	<button type="button" id="menuopen" onClick="slideOut()"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
 
    <div class="jumbotron">
@@ -40,6 +40,7 @@
 </div>
 </div>
 </div>
+<button type="button" id="backtotop" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Back to top</span></button>
 
 <div id="slidermenu" >
 	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
@@ -67,14 +68,15 @@
 
 <div class="container-fluid">
   <div class="row">
+
     <div class="col-sm-3"  id="more">
     <div class="center-block tuefont sidemenu" id="fixedmenu">
-        <button type="button" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Curriculum</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Final Project</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Associated Masters</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Exams</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Deadlines</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Contact</span></button>
+        <button type="button" onClick="document.getElementById('curriculum').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Curriculum</span></button>
+        <button type="button" onClick="document.getElementById('project').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Final Project</span></button>
+        <button type="button" onClick="document.getElementById('asmasters').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Associated Masters</span></button>
+        <button type="button" onClick="document.getElementById('exams').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Exams</span></button>
+        <button type="button" onClick="document.getElementById('deadlines').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Deadlines</span></button>
+        <button type="button" onClick="document.getElementById('contact').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Contact</span></button>
     </div>
     </div>
     <div class="col-sm-9 tuefont" id="fixedcontent">
@@ -89,7 +91,7 @@
       Science major is more concerned with technical applications) </br>
       3.	acquire professional and generic academic skills </br>
 
-      <h1>Curriculum</h1>
+      <div id="curriculum"><h1>Curriculum</h1></div>
 
       A detailed program of the Software Science program is given in the following schedule, where each study component is represented by its code, name and timeslot (A-E). All components encompass 5 ECTS, except the final project 2IPE0 (10 ECTS).
       The major is constructed along important domains, in coherent packages called learning lines. The learning lines and their study components are listed below the schedule.
@@ -342,7 +344,7 @@
       </table>
 
 
-      <h1>Final Bachelor project</h1>
+      <div id="project"><h1>Final Bachelor project</h1></div>
 
       2IPE0 Software/Web Engineering Project </br>
       The knowledge and skills learned in the previous years will be applied in an integrated way in the final DBL project, a large and complex software engineering project. </br>
@@ -359,7 +361,7 @@
       This addresses professional skills like reflecting, and the ability to impart solutions to a lay public. You will also pitch yourself adressing to a panel of recruiters. The portfolio assignment is assessed separately. In order to pass the SEP component the portfolio needs to be graded as ’sufficient’. </br>
       In order to facilitate students who face a delay in their study progress, the project is also scheduled in Quarter 1, next to the regular instance in Quarter 4.
 
-      <h1>Associate Master Programs</h1>
+      <div id="asmasters"><h1>Associate Master Programs</h1></div>
 
       The department offers three Master’s programs, all conducted in English, which follow on from the Bachelor’s program in Computer Science and Engineering. They are:
       Business Information Systems (BIS) </br>
@@ -373,7 +375,7 @@
       A double degree program is also offered for SEC in combination with BIS and with CSE; these double degree programs amount up to 150 ECTS.
       For information about other Master programs into which you might progress, see www.doorstroommatrix.nl.
 
-      <h1>Examination Schedules</h1>
+      <div id="exams"><h1>Examination Schedules</h1></div>
 
       For more information about the course or examination, click on the course to go to OASE. </br>
       <table style="width:100%">
@@ -391,7 +393,7 @@
 
 
        
-      <h1>Deadlines</h1>
+      <div id="deadlines"><h1>Deadlines</h1></div>
       On this page you can find the Final examination schedule for your program and phase. You can also find the dates of the corresponding graduation ceremonies. Each program has its own exam committee to guarantee quality requirements. Register via OASE for the next final examination session of your Examination Committee after the date on which you expect the result of your final study component to be announced. You can read more on registering for the final examination session here.
       Software Science (Bachelor College) </br>
       <table style="width:100%">
@@ -544,7 +546,7 @@
         </tr>
       </table>
 
-      <h1>Contact</h1>
+      <div id="contact"><h1>Contact</h1></div>
 
       Departmental Board     </br>
 
