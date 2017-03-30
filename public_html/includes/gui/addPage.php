@@ -17,11 +17,14 @@
     if (isset($_GET['notif'])) {
       $notif = $_GET['notif'];
       switch ($notif) {
-        case "success":
-          echo "<h3 style='color:green'>Successfully added page!</h3>";
+        case "post_null":
+          echo "<h3 style='color:red'>Nothing submitted!</h3>";
           break;
-        case "error":
-          echo "<h3 style='color:red'>Something went wrong!</h3>";
+        case "post_empty":
+          echo "<h3 style='color:red'>Fields empty!</h3>";
+          break;
+        case "page_exists":
+          echo "<h3 style='color:red'>The page already exists!</h3>";
           break;
       }
   }
