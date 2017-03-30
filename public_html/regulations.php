@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php require("includes/lang_sys.php"); ?>
+<?php require("includes/lang_system.php"); ?>
 <html lang="en">
 <head>
   <title>Regulations</title>
@@ -83,7 +83,7 @@
     <div class="col-sm-9 tuefont" id="fixedcontent">
     <div class="row">
 
-      <?php ls('regulations'); ?>
+      <?php ls('regulations.php'); ?>
 
     </div>
   </div>
