@@ -384,12 +384,11 @@ padding-left: 30px;
 	color: white;
 	text-align: center;
 	height: 100px;
-	padding-top: 20px;
 }
 a .bachelor-block:hover {
 	background: #777;
+	color: red;
 }
-
 /*buttons on the home page*/
 .mainbtn {
 	background-color: rgba(0, 134, 117, 100);
