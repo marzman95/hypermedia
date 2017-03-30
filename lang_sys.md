@@ -14,10 +14,10 @@ In principle you don't need anything of the functions, except for the `ls($name)
 
 #### Fetching language strings
 To get a string of text, call it by opening php with `<?php`.
-Then call `ls($name)` where `$name` is a string containing the name of the text variable.
+Then call `ls($name)` where `$name` is a string containing the name of the text variable, i.e. `$name = 'name_of_string'; `.
 
 ### Adding translations
-Via a special GUI it is possible to insert a new string to the database. That GUI is available on the *public_html/includes/gui/addTrans.php* (an GUI-overview will come later). Using that form you can insert a new translation into the database using:
+Via a special GUI it is possible to insert a new string to the database. That GUI is available on the *public_html/includes/gui/*. Using that interface you can insert a new translation into the database using:
 - **name**: Name of the new string, **without spaces!**.
 - **page**: *URL* of the page where the text-string is located, starting in *public_html*. If multiple, only use the most important one.
 - **nl_string**: Dutch translation of the text-string.
