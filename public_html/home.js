@@ -1,27 +1,13 @@
-function checkSize() {
-	if ($(window).width() <= 400) {
-		document.getElementsByClassName("panel-heading")[4].innerHTML='Bachelor<br><br>';
-		document.getElementsByClassName("panel-heading")[5].innerHTML="Pre-<br>master";
-		document.getElementsByClassName("panel-heading")[6].innerHTML="Master<br><br>";
-		document.getElementsByClassName("panel-heading")[7].innerHTML="Post-<br>master";
-		document.getElementsByClassName("panel-footer")[4].innerHTML='Learn more<br>about<br>the<br>bachelor<br>programs';
-		document.getElementsByClassName("panel-footer")[5].innerHTML="Learn more<br>about<br>the pre-<br>master's<br>programs";
-		document.getElementsByClassName("panel-footer")[6].innerHTML="Learn more<br>about<br>the<br>master's<br>programs";
-		document.getElementsByClassName("panel-footer")[7].innerHTML="Learn more<br>about<br>the post-<br>master's<br>programs";
-		$('#footerlinks').hide();
-	    $('#footermenu').show();
-	    $('#mainblocks').hide();
-		$('#mainblocksmobile').show();
-	    document.getElementsByClassName("panelbachelor")[0].style.marginTop='5px';		
-	} else if ($(window).width() <= 450) {
-		document.getElementsByClassName("panel-heading")[4].innerHTML='Bachelor';
-		document.getElementsByClassName("panel-heading")[5].innerHTML="Pre-master";
-		document.getElementsByClassName("panel-heading")[6].innerHTML="Master";
-		document.getElementsByClassName("panel-heading")[7].innerHTML="Post-master";
-		document.getElementsByClassName("panel-footer")[4].innerHTML='Learn more<br>about<br>the<br>bachelor<br>programs';
-		document.getElementsByClassName("panel-footer")[5].innerHTML="Learn more<br>about<br>the pre-<br>master's<br>programs";
-		document.getElementsByClassName("panel-footer")[6].innerHTML="Learn more<br>about<br>the<br>master's<br>programs";
-		document.getElementsByClassName("panel-footer")[7].innerHTML="Learn more<br>about<br>the post-<br>master's<br>programs";
+function checkSize() {	
+	if ($(window).width() <= 450) {
+		document.getElementsByClassName("panel-heading")[4].innerHTML='<br><br><h3>Bachelor<br><br></h3><br><br><br>';
+		document.getElementsByClassName("panel-heading")[5].innerHTML="<br><br><h3>Pre-master</h3><br><br><br>";
+		document.getElementsByClassName("panel-heading")[6].innerHTML="<br><br><h3>Master<br><br></h3><br><br><br>";
+		document.getElementsByClassName("panel-heading")[7].innerHTML="<br><br><h3>Post-master</h3><br><br><br>";
+		document.getElementsByClassName("panel-footer")[4].style.display="none";
+		document.getElementsByClassName("panel-footer")[5].style.display="none";
+		document.getElementsByClassName("panel-footer")[6].style.display="none";
+		document.getElementsByClassName("panel-footer")[7].style.display="none";
 		$('#footerlinks').hide();
 	    $('#footermenu').show();
 	    $('#mainblocks').hide();
@@ -32,6 +18,10 @@ function checkSize() {
 		document.getElementsByClassName("panel-heading")[5].innerHTML="Pre-master";
 		document.getElementsByClassName("panel-heading")[6].innerHTML="Master";
 		document.getElementsByClassName("panel-heading")[7].innerHTML="Post-master";
+		document.getElementsByClassName("panel-footer")[4].style.display="block";
+		document.getElementsByClassName("panel-footer")[5].style.display="block";
+		document.getElementsByClassName("panel-footer")[6].style.display="block";
+		document.getElementsByClassName("panel-footer")[7].style.display="block";
 		document.getElementsByClassName("panel-footer")[4].innerHTML='Learn more about<br>the bachelor<br>programs';
 		document.getElementsByClassName("panel-footer")[5].innerHTML="Learn more about<br>the pre-master's<br>programs";
 		document.getElementsByClassName("panel-footer")[6].innerHTML="Learn more about<br>the master's<br>programs";
@@ -46,6 +36,10 @@ function checkSize() {
 		document.getElementsByClassName("panel-heading")[5].innerHTML="Pre-master";
 		document.getElementsByClassName("panel-heading")[6].innerHTML="Master";
 		document.getElementsByClassName("panel-heading")[7].innerHTML="Post-master";
+		document.getElementsByClassName("panel-footer")[4].style.display="block";
+		document.getElementsByClassName("panel-footer")[5].style.display="block";
+		document.getElementsByClassName("panel-footer")[6].style.display="block";
+		document.getElementsByClassName("panel-footer")[7].style.display="block";
 		document.getElementsByClassName("panel-footer")[4].innerHTML='Learn more about the<br>bachelor programs';
 		document.getElementsByClassName("panel-footer")[5].innerHTML="Learn more about the<br>pre-master's programs";
 		document.getElementsByClassName("panel-footer")[6].innerHTML="Learn more about the<br>master's programs";
