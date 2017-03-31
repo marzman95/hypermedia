@@ -6,7 +6,7 @@ function checkSize() {
 		document.getElementsByClassName("panel-footer")[3].innerHTML="Learn more about the post-master's programs";
 		$('#footerlinks').hide();
 	    $('#footermenu').show();
-	    document.getElementsByClassName("panelbachelor")[0].style.marginTop='20px';
+	    document.getElementsByClassName("panelbachelor")[0].style.marginTop='5px';
 	} else if ($(window).width() <= 1000) {
 		document.getElementsByClassName("panel-footer")[0].innerHTML='Learn more about<br>the bachelor<br>programs';
 		document.getElementsByClassName("panel-footer")[1].innerHTML="Learn more about<br>the pre-master's<br>programs";
