@@ -1,5 +1,5 @@
 function checkSize() {
- 	if($(window).width() <= 750) {
+ 	if($(window).width() <= 755) {
 		$('#more').hide();
 	    $('#menuopen').show();
 	} else {
