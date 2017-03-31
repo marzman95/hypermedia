@@ -415,3 +415,8 @@ a .bachelor-block:hover {
 	width: 60%;
 	text-align: center;
 }
+
+#staticflag {
+	width:50px;
+	height:25px;
+}
