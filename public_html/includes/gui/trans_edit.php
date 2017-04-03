@@ -17,8 +17,8 @@ if (($_POST['nl_string']=="") || ($_POST['en_string']=="")) {
   exit();
 }
 
-$t_nl_string = htmlentities($_POST['nl_string']);
-$t_en_string = htmlentities($_POST['en_string']);
+$t_nl_string = htmlentities(htmlspecialchars($_POST['nl_string']));
+$t_en_string = htmlentities(htmlspecialchars($_POST['en_string']));
 
 echo "Updating translation in Dutch: <b>" . $t_nl_string . "</b> and English: <b>" . $t_en_string . "</b>";
 
