@@ -4,6 +4,7 @@
   $rPages = $connection->query($pages_query);
 ?>
 <html>
+<meta charset="utf-8">
 <head>
   <title>Add translations to DB</title>
 </head>
