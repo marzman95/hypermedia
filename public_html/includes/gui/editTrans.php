@@ -2,6 +2,7 @@
   require('../sqlConnect.php');
 ?>
 <html>
+<meta charset="utf-8">
 <head>
   <title>Edit translation</title>
 </head>
