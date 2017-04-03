@@ -24,6 +24,7 @@
   }
 ?>
 <html>
+<meta charset="utf-8">
 <head>
   <title>Overview of DB</title>
 </head>
