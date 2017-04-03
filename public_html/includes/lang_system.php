@@ -34,6 +34,6 @@ function ls($name) {
   $results = $resulted_row->fetch_assoc();
   //print_r($results);
   $with_html = $results[$col];
-  echo html_entity_decode($with_html);
+  echo html_entity_decode(html_entity_decode($with_html));
 }
 ?>

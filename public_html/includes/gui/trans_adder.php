@@ -13,8 +13,8 @@ if (($_POST['name']=="") || ($_POST['page']=="") || ($_POST['nl_string']=="") ||
 
 $t_name = strtolower(htmlspecialchars($_POST['name']));
 $t_page = strtolower(htmlspecialchars($_POST['page']));
-$t_nl_string = htmlspecialchars(htmlentities($_POST['nl_string']));
-$t_en_string = htmlspecialchars(htmlentities($_POST['en_string']));
+$t_nl_string = htmlentities($_POST['nl_string']);
+$t_en_string = htmlentities($_POST['en_string']);
 
 $query_gets = "SELECT * FROM translations WHERE name = '$t_name'";
 $rGets = $connection->query($query_gets);

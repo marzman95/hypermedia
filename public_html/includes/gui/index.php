@@ -157,8 +157,8 @@
           $id = $trans['id'];
           $name = $trans['name'];
           $page = $trans['page'];
-          $en = $trans['en_string'];
-          $nl = $trans['nl_string'];
+          $en = html_entity_decode($trans['en_string']);
+          $nl = html_entity_decode($trans['nl_string']);
           echo "<tr>";
           echo "<td>" . $id . "</td>";
           echo "<td>" . $name . "</td>";

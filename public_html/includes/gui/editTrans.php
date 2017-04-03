@@ -24,8 +24,8 @@
     $trans_det = $rTrans->fetch_assoc();
     $page_name = $trans_det['name'];
     $page_dir = $trans_det['page'];
-    $trans_nl = $trans_det['nl_string'];
-    $trans_en = $trans_det['en_string'];
+    $trans_nl = html_entity_decode($trans_det['nl_string']);
+    $trans_en = html_entity_decode($trans_det['en_string']);
   ?>
   <a href="index.php">Go to overview</a>
   <form <?php echo " action='trans_edit.php?id=$id'"; ?> method="POST">
