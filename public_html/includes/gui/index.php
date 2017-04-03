@@ -143,12 +143,12 @@
   <table>
     <thead>
       <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Page</th>
-        <th>English</th>
-        <th>Dutch</th>
-        <th colspan="2">Actions</th>
+        <th width="5%">ID</th>
+        <th width="5%">Name</th>
+        <th width="5%">Page</th>
+        <th width="40%">English</th>
+        <th width="40%">Dutch</th>
+        <th width="5%" colspan="2">Actions</th>
       </tr>
     </thead>
     <tbody>
