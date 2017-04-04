@@ -70,8 +70,8 @@ Show Menu<span class="caret"></span>
 <div class="row">
 <div class="col-sm-3"  id="more">
 <div class="center-block tuefont sidemenu" id="fixedmenu">
-    <button type="button" onClick="document.getElementById('phd').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>PHD</span></button>
-    <button type="button" onClick="document.getElementById('pdeng').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>PDEng</span></button>
+    <button type="button" onClick="document.getElementById('phd').scrollIntoView();" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>PHD</span></button>
+    <button type="button" onClick="document.getElementById('pdeng').scrollIntoView();" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>PDEng</span></button>
 
     </div>
 </div>

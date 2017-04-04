@@ -73,10 +73,10 @@ Show Menu<span class="caret"></span>
 <div class="row">
 <div class="col-sm-3"  id="more">
 <div class="center-block tuefont sidemenu" id="fixedmenu">
-    <button type="button" onClick="document.getElementById('curriculum').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Curriculum</span></button>
-    <button type="button" onClick="document.getElementById('exams').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Exams</span></button>
-    <button type="button" onClick="document.getElementById('deadlines').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Deadlines</span></button>
-    <button type="button" onClick="document.getElementById('contact').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Contact</span></button>
+    <button type="button" onClick="document.getElementById('curriculum').scrollIntoView();" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Curriculum</span></button>
+    <button type="button" onClick="document.getElementById('exams').scrollIntoView();" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Exams</span></button>
+    <button type="button" onClick="document.getElementById('deadlines').scrollIntoView();" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Deadlines</span></button>
+    <button type="button" onClick="document.getElementById('contact').scrollIntoView();" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Contact</span></button>
 </div>
 </div>
 <div class="col-sm-9 tuefont" id="fixedcontent">
