@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <?php require("includes/lang_system.php"); ?>
-<?php require("includes/lang_switch.php"); ?>
 
 <html lang="en">
 <head>
