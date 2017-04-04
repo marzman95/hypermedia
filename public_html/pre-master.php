@@ -60,7 +60,7 @@
 	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
     <div id="hidable">
     <a href="bin_stu_recommend.php"><button type="button" class="menubtn tuefont">Binding Study Recommendation</button></a>
-	<a href="regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
+	<a href="pre-master_regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
     <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="menubtn tuefont">Future Students</button></a>
     </div>
 </div>
