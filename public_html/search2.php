@@ -1,9 +1,33 @@
+<<<<<<< HEAD
+<html>
+<meta charset="utf-8">
+<?php
+  session_start();
+  $_SESSION['lang'] = "nl_nl";
+ ?>
+<head>
+  <title>Searching form test</title>
+</head>
+<body>
+  <h1>Test search functionality</h1>
+  <form method="post">
+    Search: <input type="text" name="searchField" />
+    <button type="submit">Submit</button>
+  </form>
+  <?php
+  if (isset($_POST['searchField'])) {
+    require('includes/searching.php');
+    $totals = search($_POST['searchField']);
+    echo "<h2 style='color:green'>Totals list</h2>";
+    echo $totals;
+  }
+  ?>
+=======
+<!DOCTYPE html>
+<?php require("includes/lang_system.php"); ?>
+
 <html lang="en">
 <head>
-  <?php
-    session_start();
-    $_SESSION['lang'] = "nl_nl";
-   ?>
   <title>Search</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,14 +54,12 @@
   <div class="center-block">
     <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images\dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
     <div class="input-group" style="margin-right: 5%;">
-      <form method="POST">
-            <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
+            <input type="text" class="form-control img-responsive" placeholder="search...">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button">
                 <span class="glyphicon glyphicon-search"></span>
               </button>
             </span>
-          </form>
           </div>
         </div>
         </div>
@@ -64,14 +86,9 @@
     </div>
 
     <div class="col-sm-9 tuefont" id="fixedcontent">
-      <?php
-      if (isset($_POST['searchField'])) {
-        require('includes/searching.php');
-        $totals = search($_POST['searchField']);
-        echo "<h2 style='color:green'>Totals list</h2>";
-        echo $totals;
-      }
-      ?>
+
+    <?php ?>
+
     </div>
   </div>
 </div>
@@ -102,5 +119,6 @@
 </div>
 </div>
 </footer>
+>>>>>>> refs/remotes/origin/master
 </body>
 </html>
