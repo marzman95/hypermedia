@@ -84,6 +84,10 @@
     <div class="col-sm-9 tuefont" id="fixedcontent">
 
     <?php ls('bachelorhome'); ?>
+    
+    <br>
+    <br>
+    <br>
 
 <div class="row">
     	<div class="col-md-2">
