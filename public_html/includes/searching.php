@@ -61,10 +61,10 @@ function search($input) {
     $url = ltrim($result['page'], '/');
     $title = page_title($url);
     $page = "<a href='" . $url . "' class='searchLink'>" . $title . "</a>";
-    $total = $total . $page . " (" . $result['count'] . " ocurrences)<br>";
+    $total = $total . $page . " (" . $result['count'] . " " . ls('occurrences') . ")<br>";
   }
   if ($total == "") {
-    $total = "<h3 style='color:red'>No results found!</h3>";
+    $total = "<h3 style='color:red'>" . ls("no_results") . "</h3>";
   }
   return $total;
 
