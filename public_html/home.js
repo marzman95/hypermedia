@@ -4,6 +4,10 @@ function checkSize() {
 		document.getElementsByClassName("panel-heading")[5].innerHTML="<br><br><h3>Pre-master</h3><br><br><br>";
 		document.getElementsByClassName("panel-heading")[6].innerHTML="<br><br><h3>Master<br><br></h3><br><br><br>";
 		document.getElementsByClassName("panel-heading")[7].innerHTML="<br><br><h3>Post-master</h3><br><br><br>";
+		document.getElementsByClassName("panel-heading")[4].style.color='black';
+		document.getElementsByClassName("panel-heading")[5].style.color="black";
+		document.getElementsByClassName("panel-heading")[6].style.color="black";
+		document.getElementsByClassName("panel-heading")[7].style.color="black";
 		document.getElementsByClassName("panel-footer")[4].style.display="none";
 		document.getElementsByClassName("panel-footer")[5].style.display="none";
 		document.getElementsByClassName("panel-footer")[6].style.display="none";
@@ -22,6 +26,10 @@ function checkSize() {
 		document.getElementsByClassName("panel-footer")[5].style.display="block";
 		document.getElementsByClassName("panel-footer")[6].style.display="block";
 		document.getElementsByClassName("panel-footer")[7].style.display="block";
+		document.getElementsByClassName("panel-heading")[4].style.color='black';
+		document.getElementsByClassName("panel-heading")[5].style.color="black";
+		document.getElementsByClassName("panel-heading")[6].style.color="black";
+		document.getElementsByClassName("panel-heading")[7].style.color="black";
 		document.getElementsByClassName("panel-footer")[4].innerHTML='Learn more about<br>the bachelor<br>programs';
 		document.getElementsByClassName("panel-footer")[5].innerHTML="Learn more about<br>the pre-master's<br>programs";
 		document.getElementsByClassName("panel-footer")[6].innerHTML="Learn more about<br>the master's<br>programs";
@@ -40,6 +48,10 @@ function checkSize() {
 		document.getElementsByClassName("panel-footer")[5].style.display="block";
 		document.getElementsByClassName("panel-footer")[6].style.display="block";
 		document.getElementsByClassName("panel-footer")[7].style.display="block";
+		document.getElementsByClassName("panel-heading")[4].style.color='black';
+		document.getElementsByClassName("panel-heading")[5].style.color="black";
+		document.getElementsByClassName("panel-heading")[6].style.color="black";
+		document.getElementsByClassName("panel-heading")[7].style.color="black";
 		document.getElementsByClassName("panel-footer")[4].innerHTML='Learn more about the<br>bachelor programs';
 		document.getElementsByClassName("panel-footer")[5].innerHTML="Learn more about the<br>pre-master's programs";
 		document.getElementsByClassName("panel-footer")[6].innerHTML="Learn more about the<br>master's programs";
