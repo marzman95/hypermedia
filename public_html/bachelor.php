@@ -47,11 +47,11 @@
   </button>
   <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav tuefont">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="bachelor.html">Bachelor</a></li>
-      <li><a href="#">Pre-Master</a></li>
-      <li><a href="#">Master</a></li>
-      <li><a href="#">Post-Master</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="bachelor.php">Bachelor</a></li>
+        <li><a href="pre-master.php">Pre-Master</a></li>
+        <li><a href="master.php">Master</a></li>
+        <li><a href="post-master.php">Post-Master</a></li>
     </ul>
   </div>
 </nav>
@@ -107,7 +107,7 @@
     </div>
     <div class="row">
     	<div class="col-md-2">
-        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-laptop fa-2x"></span><br>Computer Science &amp; Engineering</div></a>
+        <a href="cs.php"><div class="bachelor-block center-block"><span class="fa fa-laptop fa-2x"></span><br>Computer Science &amp; Engineering</div></a>
         </div>
         <div class="col-md-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-floppy-o fa-2x"></span><br>Data Science</div></a>
@@ -130,7 +130,7 @@
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-stethoscope fa-2x"></span><br>Medical Sciences &amp; Technology</div></a>
         </div>
         <div class="col-md-2">
-        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>Psychology &amp; Technology</div></a>
+        <a href="pt.php"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>Psychology &amp; Technology</div></a>
         </div>
         <div class="col-md-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-sun-o fa-2x"></span><br>Sustainable Innovation</div></a>
