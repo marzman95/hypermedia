@@ -96,7 +96,7 @@
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-building-o fa-2x"></span><br>Architecture, Urbanism &amp; Building Sciences</div></a>
         </div>
         <div class="col-md-2">
-        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-car fa-2x"></span><br>Automotive</div></a>
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-car fa-2x"></span><br>Automotive Technology</div></a>
         </div>
         <div class="col-md-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-heartbeat fa-2x"></span><br>Biomedical Engineering</div></a>
@@ -130,7 +130,7 @@
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-stethoscope fa-2x"></span><br>Medical Sciences &amp; Technology</div></a>
         </div>
         <div class="col-md-2">
-        <a href="master_pt.php"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>HTI</div></a>
+        <a href="master_pt.php"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>Human-Technology Interaction</div></a>
         </div>
         <div class="col-md-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-sun-o fa-2x"></span><br>Sustainable Innovation</div></a>
