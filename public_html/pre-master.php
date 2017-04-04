@@ -59,12 +59,9 @@
 <div id="slidermenu" >
 	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
     <div id="hidable">
-    <a href="prof_skills.php"><button type="button" class="menubtn tuefont">Professional skills</button></a>
-		<a href="use.php"><button type="button" class="menubtn tuefont">USE</button></a>
-    <a href="coaching.php"><button type="button" class="menubtn tuefont">Coaching</button></a>
-		<a href="bachhonors.php"><button type="button" class="menubtn tuefont">Bachelor honors</button></a>
-    <a href="https://www.tue.nl/en/education/tue-bachelor-college/"><button type="button" class="menubtn tuefont">Future students</button></a>
-    <a href="regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
+    <a href="binding_study_recommendation.php"><button type="button" class="menubtn tuefont">Binding Study Recommendation</button></a>
+	<a href="regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
+    <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="menubtn tuefont">Future Students</button></a>
     </div>
 </div>
 
@@ -83,7 +80,7 @@
 
     <div class="col-sm-9 tuefont" id="fixedcontent">
 
-    <?php ls('bachelorhome'); ?>
+    <?php ls('premasterhome'); ?>
 
 <div class="row">
         <div class="col-md-2">
