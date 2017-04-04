@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<?php require("includes/lang_system.php"); ?>
 <html lang="en">
 <head>
   <title>Search</title>
