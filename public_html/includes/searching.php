@@ -60,9 +60,13 @@ function search($input) {
     // For folder-based use: $url = ".." . $result['page'];
     $url = ltrim($result['page'], '/');
     $title = page_title($url);
-    $page = "<a href='" . $url . "'>" . $title . "</a>";
-    $total = $total . "<b>Option (" . $result['count'] . "):</b> " . $page . "<br>";
+    $page = "<a href='" . $url . "' class='searchLink'>" . $title . "</a>";
+    $total = $total . $page . " (" . $result['count'] . " ocurrences)<br>";
+  }
+  if ($total == "") {
+    $total = "<h3 style='color:red'>No results found!</h3>";
   }
   return $total;
+
 }
 ?>

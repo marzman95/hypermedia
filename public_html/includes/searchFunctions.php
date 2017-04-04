@@ -20,7 +20,11 @@
   }
 
   function sortResults($filtered) {
-    arsort($filtered);
+    $count = array();
+    foreach ($filtered as $key=>$value) {
+      $count[$key] = $value['count'];
+    }
+    array_multisort($count, SORT_DESC, $filtered);
     return($filtered);
   }
 

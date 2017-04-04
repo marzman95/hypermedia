@@ -475,3 +475,12 @@ a .bachelor-block:hover {
 	width:80%;
 	height:80%;
 }
+
+/* Search link style */
+.searchLink {
+	font-size: 18px;
+}
+
+.searchLink:hover {
+	color: #CE0037;
+}
