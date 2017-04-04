@@ -1,0 +1,49 @@
+Searching:
+<form action="../search.php" method="POST">
+      <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </span>
+    </form>
+=======================
+Done (r=imports, s=searching, b=menu-buttons, m=menu-links f=file at location, i=indent):
+[s,f,m,i] home.php
+[s,f,m,b,i] bachelor.php
+[s,m,b,f,i] master.php
+[s,p,f,i] post_master.php
+[s,p,f,i,b] pre_master.php
+------------------------------------
+[r,s,m,b,f,i] bachelor/coaching.php
+[r,s,f,m,i] bachelor/cs.php*
+[f,r,s,m,b,i] bachelor/honors.php
+[f,s,r,m,b,i] bachelor/prof_skills.php
+[f,s,r,m,i] bachelor/pt.php*
+[f,s,r,b,m,i] bachelor/regulations.php
+[f,r,s,m,b,i] bachelor/use.php
+------------------------------------
+[f,r,s,m,b,i] general/agenda.php
+[f,r,s,m,b,i] general/enrollment.php
+[f,r,s,m,b,i] general/student_statute.php
+[f,r,s,m,b,i] general/timeslots.php
+-------------------------------------
+[f,r,s,m,b,i] master/coaching.php
+[f,r,s,m,i] master/cs.php*
+[f,r,s,m,b,i] master/exchange.php
+[f,r,s,m,b,i] master/honors.php
+[f,r,s,m,b,i] master/prof_skills.php
+[f,r,s,m,i] master/pt.php*
+[f,r,s,m,b,i] master/regulations.php
+--------------------------------------
+[f,r,s,m,b,i] premaster/bsr.php
+[f,r,s,m,i] premaster/cs.php*
+[f,r,s,m,i] premaster/hti.php*
+[f,r,s,m,b,i] premaster/regulations.php
+=====
+pre&post to _
+* indent not right
+====================
+missing pages:
+master/hti.php (pt?)
+postmaster/*

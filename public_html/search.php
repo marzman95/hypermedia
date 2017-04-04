@@ -1,9 +1,5 @@
 <html lang="en">
 <head>
-  <?php
-    session_start();
-    $_SESSION['lang'] = "nl_nl";
-   ?>
   <title>Search</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,7 +46,7 @@
   </button>
   <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav tuefont">
-        <li><a href="home.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="bachelor.php">Bachelor</a></li>
         <li><a href="pre-master.php">Pre-Master</a></li>
         <li><a href="master.php">Master</a></li>
