@@ -71,10 +71,8 @@ Show Menu<span class="caret"></span>
 </ul>
 </div>
 </nav>
-
 <div class="container-fluid">
 <div class="row">
-
 <div class="col-sm-3"  id="more">
 <div class="center-block tuefont sidemenu" id="fixedmenu">
     <button type="button" onClick="document.getElementById('curriculum').scrollIntoView();" class="btn btn-default btn-lg btn-block" style="vertical-align:middle"><span>Curriculum</span></button>
