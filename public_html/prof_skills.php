@@ -88,6 +88,7 @@
     </div>
   </div>
 </div>
+</div>
 
 <footer>
 <div id="footercontact">
