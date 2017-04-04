@@ -39,10 +39,10 @@
   <div class="container-fluid">
     <ul class="nav navbar-nav tuefont">
       <li><a href="home.html">Home</a></li>
-      <li><a href="bachelor.html">Bachelor</a></li>
-      <li><a href="#">Pre-Master</a></li>
-      <li><a href="cs.html">Master</a></li>
-      <li><a href="#">Post-Master</a></li>
+      <li><a href="bachelor.php">Bachelor</a></li>
+      <li><a href="pre-master.php">Pre-Master</a></li>
+      <li><a href="master.php">Master</a></li>
+      <li><a href="post-master.php">Post-Master</a></li>
     </ul>
   </div>
 </nav>

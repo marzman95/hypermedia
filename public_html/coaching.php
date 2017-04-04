@@ -48,10 +48,10 @@
   <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav tuefont">
       <li><a href="home.html">Home</a></li>
-      <li><a href="bachelor.html">Bachelor</a></li>
-      <li><a href="#">Pre-Master</a></li>
-      <li><a href="#">Master</a></li>
-      <li><a href="#">Post-Master</a></li>
+      <li><a href="bachelor.php">Bachelor</a></li>
+      <li><a href="pre-master.php">Pre-Master</a></li>
+      <li><a href="master.php">Master</a></li>
+      <li><a href="post-master.php">Post-Master</a></li>
     </ul>
   </div>
 </nav>
@@ -59,12 +59,12 @@
 <div id="slidermenu" >
 	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
     <div id="hidable">
-		<button type="button" class="menubtn tuefont">Professional skills</button>
-		<button type="button" class="menubtn tuefont">USE</button>
-    <button type="button" class="menubtn tuefont">Coaching</button>
-		<button type="button" class="menubtn tuefont">Bachelor honors</button>
-    <button type="button" class="menubtn tuefont">Future students</button>
-    <button type="button" class="menubtn tuefont">Regulations</button>
+    <a href="prof_skills.php"><button type="button" class="menubtn tuefont">Professional skills</button></a>
+		<a href="use.php"><button type="button" class="menubtn tuefont">USE</button></a>
+    <a href="coaching.php"><button type="button" class="menubtn tuefont">Coaching</button></a>
+		<a href="bachhonors.php"><button type="button" class="menubtn tuefont">Bachelor honors</button></a>
+    <a href="https://www.tue.nl/en/education/tue-bachelor-college/"><button type="button" class="menubtn tuefont">Future students</button></a>
+    <a href="regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
     </div>
 </div>
 
@@ -72,12 +72,12 @@
   <div class="row">
     <div class="col-sm-3" id="more">
       <div class="center-block tuefont sidemenu" id="fixedmenu">
-        <button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Professional skills</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>USE</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Coaching</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Bachelor Honors</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button>
-        <button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button>
+        <a href="prof_skills.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Professional skills</span></button></a>
+        <a href="use.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>USE</span></button></a>
+        <a href="coaching.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Coaching</span></button></a>
+        <a href="bachhonors.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Bachelor Honors</span></button></a>
+        <a href="https://www.tue.nl/en/education/tue-bachelor-college/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
+        <a href="regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
        </div>
     </div>
 

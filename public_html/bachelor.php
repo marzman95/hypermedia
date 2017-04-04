@@ -3,7 +3,7 @@
 
 <html lang="en">
 <head>
-  <title>Professional skills</title>
+  <title>Bachelors</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -27,7 +27,7 @@
   </div>
   <div class="col-sm-3">
   <div class="center-block">
-    <div class="flag"><a href="includes/lang_switch.php"><img src="Images\dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
+    <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images\dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
     <div class="input-group" style="margin-right: 5%;">
             <input type="text" class="form-control img-responsive" placeholder="search...">
             <span class="input-group-btn">
@@ -48,10 +48,10 @@
   <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav tuefont">
       <li><a href="home.html">Home</a></li>
-      <li><a href="bachelor.php">Bachelor</a></li>
-      <li><a href="pre-master.php">Pre-Master</a></li>
-      <li><a href="master.php">Master</a></li>
-      <li><a href="post-master.php">Post-Master</a></li>
+      <li><a href="bachelor.html">Bachelor</a></li>
+      <li><a href="#">Pre-Master</a></li>
+      <li><a href="#">Master</a></li>
+      <li><a href="#">Post-Master</a></li>
     </ul>
   </div>
 </nav>
@@ -80,11 +80,64 @@
         <a href="regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
        </div>
     </div>
+
     <div class="col-sm-9 tuefont" id="fixedcontent">
+
+    <?php ls('regulations'); ?>
+
+<div class="row">
+    	<div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-calculator fa-2x"></span><br>Applied Mathematics</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-rocket fa-2x"></span><br>Applied Physics</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-building-o fa-2x"></span><br>Architecture, Urbanism &amp; Building Sciences</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-car fa-2x"></span><br>Automotive</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-heartbeat fa-2x"></span><br>Biomedical Engineering</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-thermometer-full fa-2x"></span><br>Chemical Engineering &amp; Chemistry</div></a>
+        </div>
+    </div>
     <div class="row">
-
-      <?php ls('prof_skills'); ?>
-
+    	<div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-laptop fa-2x"></span><br>Computer Science &amp; Engineering</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-floppy-o fa-2x"></span><br>Data Science</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-lightbulb-o fa-2x"></span><br>Electrical Engineering</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-industry fa-2x"></span><br>Industrial Design</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-eur fa-2x"></span><br>Industrial Engineering</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-wrench fa-2x"></span><br>Mechanical Engineering</div></a>
+        </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-stethoscope fa-2x"></span><br>Medical Sciences &amp; Technology</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>Psychology &amp; Technology</div></a>
+        </div>
+        <div class="col-md-2">
+        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-sun-o fa-2x"></span><br>Sustainable Innovation</div></a>
+        </div>
+        <div class="col-md-6">
+        </div>
+     </div>
     </div>
   </div>
 </div>
