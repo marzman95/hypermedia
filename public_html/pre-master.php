@@ -72,6 +72,7 @@
         <a href="bin_stu_recommend.php.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Binding Study Recommendation</span></button></a>
         <a href="regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
         <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>CFuture Students</span></button></a>
+      </div>
     </div>
 
     <div class="col-sm-9 tuefont" id="fixedcontent">
