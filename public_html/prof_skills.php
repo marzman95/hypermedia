@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <?php require("includes/lang_system.php"); ?>
+<?php require("includes/lang_switch.php"); ?>
+
 <html lang="en">
 <head>
   <title>Professional skills</title>
@@ -26,7 +28,7 @@
   </div>
   <div class="col-sm-3">
   <div class="center-block">
-    <div class="flag"><img src="Images\dflag.png" class="img-responsive img-thumbnail" alt="Image"></div>
+    <div class="flag"><a href="includes/lang_switch.php"><img src="Images\dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
     <div class="input-group" style="margin-right: 5%;">
             <input type="text" class="form-control img-responsive" placeholder="search...">
             <span class="input-group-btn">
