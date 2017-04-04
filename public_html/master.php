@@ -76,7 +76,7 @@
         <a href="exchange.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Exchange options</span></button></a>
         <a href="master_coaching.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Coaching</span></button></a>
         <a href="masterhonors.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Master's Honors</span></button></a>
-        <a href="https://www.tue.nl/en/education/tue-bachelor-college/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
+        <a href="https://www.tue.nl/en/education/tue-graduate-school/masters-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
         <a href="master_regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
        </div>
     </div>
