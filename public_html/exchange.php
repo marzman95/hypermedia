@@ -72,25 +72,21 @@
   <div class="row">
     <div class="col-sm-3" id="more">
       <div class="center-block tuefont sidemenu" id="fixedmenu">
-        <a href="enrollment.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Enrollment</span></button></a>
-        <a href="https://www.tue.nl/en/education/studying-at-tue/study-costs-scholarships-and-grants/tuition-fees-2016-2017/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Tuition fees</span></button></a>
-        <a href="studentsstatute.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Students Statute</span></button></a>
-        <a href="https://www.tue.nl/en/university/about-the-university/organization/support-services/ict-services/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>ICT Services</span></button></a>
-        <a href="http://mytue.tue.nl"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>MyTue</span></button></a>
-        <a href="timeslots.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Timeslots</span></button></a>
-        <a href="agenda.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Academic Year Agenda</span></button></a>
-        <a href="https://www.tue.nl/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
+        <a href="master_prof_skills.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Professional skills</span></button></a>
+        <a href="exchange.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Exchange options</span></button></a>
+        <a href="master_coaching.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Coaching</span></button></a>
+        <a href="masterhonors.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Master's Honors</span></button></a>
+        <a href="https://www.tue.nl/en/education/tue-graduate-school/masters-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
+        <a href="master_regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
        </div>
     </div>
 
     <div class="col-sm-9 tuefont" id="fixedcontent">
-    <div class="row">
 
-    <?php ls('exchange'); ?>
+    <?php ls('master_exchange'); ?>
 
     </div>
   </div>
-</div>
 </div>
 
     <br>
