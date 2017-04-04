@@ -23,11 +23,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-9">
-          <img src="Images\headercw.png" class="img-responsive" style="padding-left: 5%; width:80%;" alt="Image">
+          <img src="Images/headercw.png" class="img-responsive" style="padding-left: 5%; width:80%;" alt="Image">
         </div>
         <div class="col-sm-3">
           <div class="center-block">
-            <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images\dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
+            <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images/dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
             <div class="input-group" style="margin-right: 5%;">
               <form action="search.php" method="POST">
                 <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
@@ -73,7 +73,7 @@
         <div class="center-block tuefont sidemenu" id="fixedmenu">
           <a href="premaster/bsr.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Binding Study Recommendation</span></a>
           <a href="premaster/regulations.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></a>
-          <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
+          <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></a>
         </div>
       </div>
 
@@ -121,7 +121,7 @@
             <a href="#"><div class="bachelor-block center-block"><span class="fa fa-lightbulb-o fa-2x"></span><br>Electrical Engineering</div></a>
           </div>
           <div class="col-md-2">
-            <a href="premaster/hti.php"><div class="bachelor-block center-block"><span class="fa fa-android fa-2x"></span><br>Human-Technology Interaction</div></a>
+            <a href="premaster/hti.php"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>Human-Technology Interaction</div></a>
           </div>
         </div>
         <div class="row">

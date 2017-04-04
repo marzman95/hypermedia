@@ -22,11 +22,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-9">
-          <img src="Images\headercw.png" class="img-responsive" style="padding-left: 5%; width:80%;" alt="Image">
+          <img src="Images/headercw.png" class="img-responsive" style="padding-left: 5%; width:80%;" alt="Image">
         </div>
         <div class="col-sm-3">
           <div class="center-block">
-            <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images\dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
+            <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images/dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
             <div class="input-group" style="margin-right: 5%;">
               <form action="search.php" method="POST">
                 <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
