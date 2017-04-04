@@ -86,12 +86,14 @@
     <?php ls('bachelorhome'); ?>
 
 <div class="row">
-    	<div class="col-md-2">
+	<div class="col-md-4">
+    	<div class="col-sm-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-calculator fa-2x"></span><br>Applied Mathematics</div></a>
         </div>
-        <div class="col-md-2">
+        <div class="col-sm-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-rocket fa-2x"></span><br>Applied Physics</div></a>
         </div>
+    </div>
         <div class="col-md-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-building-o fa-2x"></span><br>Architecture, Urbanism &amp; Building Sciences</div></a>
         </div>
@@ -141,6 +143,9 @@
     </div>
   </div>
 </div>
+
+<br>
+<br>
 
 <footer>
 <div id="footercontact">
