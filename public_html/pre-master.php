@@ -59,8 +59,8 @@
 <div id="slidermenu" >
 	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
     <div id="hidable">
-    <a href="bin_stu_recommend.php"><button type="button" class="menubtn tuefont">Binding Study Recommendation</button></a>
-	<a href="pre-master_regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
+    <a href="premasterbsr.php"><button type="button" class="menubtn tuefont">Binding Study Recommendation</button></a>
+	<a href="premaster_regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
     <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="menubtn tuefont">Future Students</button></a>
     </div>
 </div>
@@ -69,8 +69,8 @@
   <div class="row">
     <div class="col-sm-3" id="more">
       <div class="center-block tuefont sidemenu" id="fixedmenu">
-        <a href="bin_stu_recommend.php.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Binding Study Recommendation</span></button></a>
-        <a href="regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
+        <a href="premasterbsr.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Binding Study Recommendation</span></button></a>
+        <a href="premaster_regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
         <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>CFuture Students</span></button></a>
       </div>
     </div>
