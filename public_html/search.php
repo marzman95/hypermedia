@@ -67,7 +67,11 @@
         if (isset($_POST['searchField'])) {
           require('includes/searching.php');
           $totals = search($_POST['searchField']);
-          echo "<h2>" . ls("search_head") . " " . $_POST['searchField'] . "</h2>";
+          ob_start();
+          ls("search_head");
+          $head = ob_get_contents();
+          ob_clean();
+          echo "<h2>" . $head . " " . $_POST['searchField'] . "</h2>";
           echo $totals;
         }
         ?>

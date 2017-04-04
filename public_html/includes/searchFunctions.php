@@ -6,7 +6,9 @@
   }
 
   function countSearch($text, $search) {
+    ob_start();
     $counter = substr_count($text, $search);
+    ob_clean();
     return $counter;
   }
 

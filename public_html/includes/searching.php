@@ -61,12 +61,19 @@ function search($input) {
     $url = ltrim($result['page'], '/');
     $title = page_title($url);
     $page = "<a href='" . $url . "' class='searchLink'>" . $title . "</a>";
-    $total = $total . $page . " (" . $result['count'] . " " . ls('occurrences') . ")<br>";
+    ob_start();
+    ls("occurrences");
+    $occur = ob_get_contents();
+    ob_clean();
+    $total = $total . $page . " (" . $result['count'] . " " . $occur . ")<br>";
   }
   if ($total == "") {
-    $total = "<h3 style='color:red'>" . ls("no_results") . "</h3>";
+    ob_start();
+    ls("no_results");
+    $no_results = ob_get_contents();
+    ob_clean();
+    $total = "<h3 style='color:red'>" . $no_results . "</h3>";
   }
   return $total;
-
 }
 ?>
