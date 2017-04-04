@@ -71,7 +71,7 @@
       <div class="center-block tuefont sidemenu" id="fixedmenu">
         <a href="premasterbsr.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Binding Study Recommendation</span></button></a>
         <a href="premaster_regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
-        <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>CFuture Students</span></button></a>
+        <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
       </div>
     </div>
 
@@ -101,7 +101,7 @@
     </div>
     <div class="row">
     	<div class="col-md-2">
-        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-laptop fa-2x"></span><br>Computer Science &amp; Engineering</div></a>
+        <a href="premastercs.php"><div class="bachelor-block center-block"><span class="fa fa-laptop fa-2x"></span><br>Computer Science &amp; Engineering</div></a>
         </div>
         <div class="col-md-2">
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-road fa-2x"></span><br>Construction Management &amp; Engineering</div></a>
@@ -116,7 +116,7 @@
         <a href="#"><div class="bachelor-block center-block"><span class="fa fa-lightbulb-o fa-2x"></span><br>Electrical Engineering</div></a>
         </div>
         <div class="col-md-2">
-        <a href="#"><div class="bachelor-block center-block"><span class="fa fa-android fa-2x"></span><br>Human-Technology Interaction</div></a>
+        <a href="premasterhti.php"><div class="bachelor-block center-block"><span class="fa fa-android fa-2x"></span><br>Human-Technology Interaction</div></a>
         </div>
     </div>
     <div class="row">
