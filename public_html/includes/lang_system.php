@@ -1,6 +1,10 @@
 <?php
 // [2IO80] DBL Hypermedia group 2, TU/e 2017
 session_start();
+$path = $_SERVER['SCRIPT_FILENAME'];
+// Volgende werkt alleen op de wwwis-server
+$path = str_replace("/home/dblh2_2017/public_html", "/~dblh2_2017", $path);
+$_SESSION['path'] = $path;
 require('sqlConnect.php');
 
 if(!isset($_SESSION['lang'])) {
