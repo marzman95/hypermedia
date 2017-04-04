@@ -59,7 +59,7 @@
 <div id="slidermenu" >
 	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
     <div id="hidable">
-    <a href="binding_study_recommendation.php"><button type="button" class="menubtn tuefont">Binding Study Recommendation</button></a>
+    <a href="bin_stu_recommend.php"><button type="button" class="menubtn tuefont">Binding Study Recommendation</button></a>
 	<a href="regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
     <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="menubtn tuefont">Future Students</button></a>
     </div>
@@ -69,13 +69,9 @@
   <div class="row">
     <div class="col-sm-3" id="more">
       <div class="center-block tuefont sidemenu" id="fixedmenu">
-        <a href="prof_skills.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Professional skills</span></button></a>
-        <a href="use.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>USE</span></button></a>
-        <a href="coaching.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Coaching</span></button></a>
-        <a href="bachhonors.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Bachelor Honors</span></button></a>
-        <a href="https://www.tue.nl/en/education/tue-bachelor-college/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></button></a>
+        <a href="bin_stu_recommend.php.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Binding Study Recommendation</span></button></a>
         <a href="regulations.php"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></button></a>
-       </div>
+        <a href="https://www.tue.nl/en/education/tue-graduate-school/pre-master/pre-master-programs/"><button type="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>CFuture Students</span></button></a>
     </div>
 
     <div class="col-sm-9 tuefont" id="fixedcontent">
