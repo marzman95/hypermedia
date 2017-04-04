@@ -83,7 +83,7 @@
 
     <div class="col-sm-9 tuefont" id="fixedcontent">
 
-    <?php ls('regulations'); ?>
+    <?php ls('bachelorhome'); ?>
 
 <div class="row">
     	<div class="col-md-2">
