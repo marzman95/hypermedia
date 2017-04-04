@@ -425,7 +425,7 @@ a .bachelor-block:hover {
 }
 
 #bachelorbtnmobile {
-	background-image: url("images/bacheloralpha.jpg");
+	background-image: url("Images/bacheloralpha.jpg");
 	position: aboslute;
 	top: 0px;
 	left: 0px;
@@ -436,7 +436,7 @@ a .bachelor-block:hover {
 }
 
 #prebtnmobile {
-	background-image: url("images/pre-masteralpha.jpg");
+	background-image: url("Images/pre-masteralpha.jpg");
 	position: aboslute;
 	top: 0px;
 	left: 0px;
@@ -447,7 +447,7 @@ a .bachelor-block:hover {
 }
 
 #masterbtnmobile {
-	background-image: url("images/masteralpha.jpg");
+	background-image: url("Images/masteralpha.jpg");
 	border: none;
 	position: aboslute;
 	top: 0px;
@@ -458,7 +458,7 @@ a .bachelor-block:hover {
 }
 
 #postbtnmobile {
-	background-image: url("images/post-masteralpha.jpg");
+	background-image: url("Images/post-masteralpha.jpg");
 	border: none;
 	position: aboslute;
 	top: 0px;
