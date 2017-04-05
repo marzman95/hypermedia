@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-9">
-          <img src="../Images/headercw.png" class="img-responsive" style="padding-left: 5%; width:80%;" alt="Image">
+          <img src="../Images/headercw.png" class="img-responsive" style="padding-left: 50px; width:80%;" alt="Image">
         </div>
         <div class="col-sm-3">
           <div class="center-block">
