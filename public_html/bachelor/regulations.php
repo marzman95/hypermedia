@@ -28,7 +28,7 @@
         </div>
         <div class="col-sm-3">
           <div class="center-block">
-            <div class="flag"><a href="../includes/lang_switch.php"><img src="../Images/dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
+            <div class="flag"  id="staticflag"><a href="../includes/lang_switch.php"><img src="../Images/dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
             <div class="input-group" style="margin-right: 5%;">
               <form action="../search.php" method="POST">
                 <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">

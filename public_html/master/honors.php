@@ -66,7 +66,7 @@
       <a href="coaching.php"><button type="button" class="menubtn tuefont">Coaching</button></a>
       <a href="honors.php"><button type="button" class="menubtn tuefont">Master's honors</button></a>
       <a href="https://www.tue.nl/en/education/tue-graduate-school/masters-programs/"><button type="button" class="menubtn tuefont">Future students</button></a>
-      <a href="_regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
+      <a href="regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
     </div>
   </div>
 
