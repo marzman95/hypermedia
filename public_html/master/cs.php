@@ -92,35 +92,37 @@
         <?php ls('mastercs'); ?>
 
       </div>
+    </div>
+  </div>
 
-      <br>
-      <br>
+  <br>
+  <br>
 
-      <footer>
-        <div id="footercontact">
-          <div class="container-fluid text-left tuefont">
-            <div class="col">
-              <h2>Contact</h2>
-              <h3>Adress</h3> <h3>Postal Adress</h3> <br>
-              <h4>De Zaale, Eindhoven   </h4> <h4>PO Box 513</h4> <br>
-              <h4>T: +31 (0)40 247 9111</h4> <h4>5600 MB Eindhoven</h4> <br>
-              <h4>E: info@tue.nl</h4>
-            </div>
-
-            <div class="col"> <h2>Social Media</h2>
-              <a href="https://www.facebook.com/TU.Eindhoven" class="fa fa-facebook fa-lg"></a>
-              <a href="https://twitter.com/TUeindhoven" class="fa fa-twitter fa-lg"></a>
-              <a href="https://plus.google.com/+tueindhoven" class="fa fa-google-plus fa-lg"></a>
-              <a href="https://www.linkedin.com/edu/school?id=15446" class="fa fa-linkedin fa-lg"></a>
-              <a href="https://www.youtube.com/user/tueindhoven" class="fa fa-youtube fa-lg"></a>
-            </div>
-
-            <div class= "col">
-              <h2> Where innovation starts <br><br> © 2017 TU/e</h2>
-            </div>
-
-          </div>
+  <footer>
+    <div id="footercontact">
+      <div class="container-fluid text-left tuefont">
+        <div class="col">
+          <h2>Contact</h2>
+          <h3>Adress</h3> <h3>Postal Adress</h3> <br>
+          <h4>De Zaale, Eindhoven   </h4> <h4>PO Box 513</h4> <br>
+          <h4>T: +31 (0)40 247 9111</h4> <h4>5600 MB Eindhoven</h4> <br>
+          <h4>E: info@tue.nl</h4>
         </div>
-      </footer>
-    </body>
-    </html>
+
+        <div class="col"> <h2>Social Media</h2>
+          <a href="https://www.facebook.com/TU.Eindhoven" class="fa fa-facebook fa-lg"></a>
+          <a href="https://twitter.com/TUeindhoven" class="fa fa-twitter fa-lg"></a>
+          <a href="https://plus.google.com/+tueindhoven" class="fa fa-google-plus fa-lg"></a>
+          <a href="https://www.linkedin.com/edu/school?id=15446" class="fa fa-linkedin fa-lg"></a>
+          <a href="https://www.youtube.com/user/tueindhoven" class="fa fa-youtube fa-lg"></a>
+        </div>
+
+        <div class= "col">
+          <h2> Where innovation starts <br><br> © 2017 TU/e</h2>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
