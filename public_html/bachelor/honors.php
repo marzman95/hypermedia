@@ -84,11 +84,9 @@
       </div>
 
       <div class="col-sm-9 tuefont" id="fixedcontent">
-        <div class="row">
 
-          <?php ls('honors'); ?>
+        <?php ls('honors'); ?>
 
-        </div>
       </div>
     </div>
   </div>

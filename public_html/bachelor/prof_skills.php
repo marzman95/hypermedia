@@ -83,11 +83,9 @@
         </div>
       </div>
       <div class="col-sm-9 tuefont" id="fixedcontent">
-        <div class="row">
 
-          <?php ls('prof_skills'); ?>
+        <?php ls('prof_skills'); ?>
 
-        </div>
       </div>
     </div>
   </div>

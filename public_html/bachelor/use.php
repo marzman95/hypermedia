@@ -84,11 +84,9 @@
       </div>
 
       <div class="col-sm-9 tuefont" id="fixedcontent">
-        <div class="row">
 
           <?php ls('use'); ?>
 
-        </div>
       </div>
     </div>
   </div>
