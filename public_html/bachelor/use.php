@@ -64,7 +64,7 @@
       <a href="prof_skills.php"><button type="button" class="menubtn tuefont">Professional skills</button></a>
       <a href="use.php"><button type="button" class="menubtn tuefont">USE</button></a>
       <a href="coaching.php"><button type="button" class="menubtn tuefont">Coaching</button></a>
-      <a href="bachhonors.php"><button type="button" class="menubtn tuefont">Bachelor honors</button></a>
+      <a href="honors.php"><button type="button" class="menubtn tuefont">Bachelor honors</button></a>
       <a href="https://www.tue.nl/en/education/tue-bachelor-college/"><button type="button" class="menubtn tuefont">Future students</button></a>
       <a href="regulations.php"><button type="button" class="menubtn tuefont">Regulations</button></a>
     </div>
@@ -77,7 +77,7 @@
           <a href="prof_skills.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Professional skills</span></a>
           <a href="use.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>USE</span></a>
           <a href="coaching.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Coaching</span></a>
-          <a href="bachhonors.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Bachelor Honors</span></a>
+          <a href="honors.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Bachelor Honors</span></a>
           <a href="https://www.tue.nl/en/education/tue-bachelor-college/" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Future Students</span></a>
           <a href="regulations.php" role="button" class="btn btn-default btn-lg btn-block font-smaller" style="vertical-align:middle"><span>Regulations</span></a>
         </div>

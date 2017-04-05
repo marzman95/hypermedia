@@ -132,7 +132,7 @@
         <ul class="nav navbar-nav tuefont">
           <li><a href="general/enrollment.php">Enrollment</a></li>
           <li><a href="https://www.tue.nl/en/education/studying-at-tue/study-costs-scholarships-and-grants/tuition-fees-2016-2017/">Tuition Fees</a></li>
-          <li><a href="general/studentsstatute.php">Students Statute</a></li>
+          <li><a href="general/students_statute.php">Students Statute</a></li>
           <li><a href="https://www.tue.nl/en/university/about-the-university/organization/support-services/ict-services/">ICT Services</a></li>
           <li><a href="http://mytue.tue.nl">MyDay</a></li>
           <li><a href="general/timeslots.php">Timeslots</a></li>
@@ -153,7 +153,7 @@
             <button type="button" onclick="location.href='https://www.tue.nl/en/education/studying-at-tue/study-costs-scholarships-and-grants/tuition-fees-2016-2017/';" class="btn btn-default"><span>Tuition Fees</span></button>
           </div>
           <div class="btn-group" role="group">
-            <button type="button" onclick="location.href='general/studentsstatute.php';" class="btn btn-default"><span>Students Statute</span></button>
+            <button type="button" onclick="location.href='general/students_statute.php';" class="btn btn-default"><span>Students Statute</span></button>
           </div>
           <div class="btn-group" role="group">
             <button type="button" onclick="location.href='https://www.tue.nl/en/university/about-the-university/organization/support-services/ict-services/';" class="btn btn-default"><span>ICT Services</span></button>
