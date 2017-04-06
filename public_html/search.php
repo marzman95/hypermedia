@@ -50,9 +50,9 @@
       <ul class="nav navbar-nav tuefont">
         <li><a href="index.php">Home</a></li>
         <li><a href="bachelor.php">Bachelor</a></li>
-        <li><a href="pre-master.php">Pre-Master</a></li>
+        <li><a href="pre_master.php">Pre-Master</a></li>
         <li><a href="master.php">Master</a></li>
-        <li><a href="post-master.php">Post-Master</a></li>
+        <li><a href="post_master.php">Post-Master</a></li>
       </ul>
     </div>
   </nav>
