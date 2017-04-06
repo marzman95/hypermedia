@@ -111,7 +111,7 @@
         </div>
         <div class="row">
           <div class="col-md-2">
-            <a href="master_cs.php"><div class="bachelor-block center-block"><span class="fa fa-laptop fa-2x"></span><br>Computer Science &amp; Engineering</div></a>
+            <a href="master/master_cs.php"><div class="bachelor-block center-block"><span class="fa fa-laptop fa-2x"></span><br>Computer Science &amp; Engineering</div></a>
           </div>
           <div class="col-md-2">
             <a href="#"><div class="bachelor-block center-block"><span class="fa fa-floppy-o fa-2x"></span><br>Data Science</div></a>
@@ -134,7 +134,7 @@
             <a href="#"><div class="bachelor-block center-block"><span class="fa fa-stethoscope fa-2x"></span><br>Medical Sciences &amp; Technology</div></a>
           </div>
           <div class="col-md-2">
-            <a href="master_pt.php"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>Human-Technology Interaction</div></a>
+            <a href="master/master_pt.php"><div class="bachelor-block center-block"><span class="fa fa-users fa-2x"></span><br>Human-Technology Interaction</div></a>
           </div>
           <div class="col-md-2">
             <a href="#"><div class="bachelor-block center-block"><span class="fa fa-sun-o fa-2x"></span><br>Sustainable Innovation</div></a>
