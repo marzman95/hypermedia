@@ -91,7 +91,7 @@
         ini_set("display_errors", "1");
         if (isset($_POST['searchField'])) {
           require('includes/searching.php');
-          $totals = search($_POST['searchField']);
+          $totals = search(htmlentities($_POST['searchField']));
           ob_start();
           ls("search_head");
           $head = ob_get_contents();
