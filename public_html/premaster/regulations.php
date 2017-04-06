@@ -28,15 +28,15 @@
         <div class="col-sm-3">
           <div class="center-block">
             <div class="flag" id="staticflag"><a href="../includes/lang_switch.php"><img src="../Images/dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
-            <div class="input-group" style="margin-right: 5%;">
-              <form action="../search.php" method="POST">
-                <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="submit">
-                    <span class="glyphicon glyphicon-search"></span>
-                  </button>
-                </span>
-              </form>
+            <form action="../search.php" method="POST">
+              <div class="input-group" style="margin-right: 5%;">
+              <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </span>
+            </form>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@
           <h4>T: +31 (0)40 247 9111</h4> <h4>5600 MB Eindhoven</h4> <br>
           <h4>E: info@tue.nl</h4>
         </div>
-        
+
         <div class="col"> <h2>Social Media</h2>
           <a href="https://www.facebook.com/TU.Eindhoven" class="fa fa-facebook fa-lg"></a>
           <a href="https://twitter.com/TUeindhoven" class="fa fa-twitter fa-lg"></a>
