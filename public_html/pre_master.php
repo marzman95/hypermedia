@@ -30,14 +30,14 @@
             <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images/dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
             <form action="search.php" method="POST">
               <div class="input-group" style="margin-right: 5%;">
-              <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="submit">
-                  <span class="glyphicon glyphicon-search"></span>
-                </button>
-              </span>
+                <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+                </span>
+              </div>
             </form>
-            </div>
           </div>
         </div>
       </div>

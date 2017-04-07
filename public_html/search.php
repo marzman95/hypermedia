@@ -29,14 +29,14 @@
             <div class="flag" id="staticflag"><a href="includes/lang_switch.php"><img src="Images/dflag.png" class="img-responsive img-thumbnail" alt="Image"></a></div>
             <form action="search.php" method="POST">
               <div class="input-group" style="margin-right: 5%;">
-              <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="submit">
-                  <span class="glyphicon glyphicon-search"></span>
-                </button>
-              </span>
+                <input type="text" name="searchField" class="form-control img-responsive" placeholder="search...">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+                </span>
+              </div>
             </form>
-            </div>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
   </nav>
 
   <div id="slidermenu" >
-  	<button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
+    <button type="button" id="menuclose" onClick="doMoreThings()"><span class="glyphicon glyphicon-remove"></span></button>
     <div id="hidable">
       <a href="enrollment.php"><button type="button" class="menubtn tuefont">Enrollment</button></a>
       <a href="https://www.tue.nl/en/education/studying-at-tue/study-costs-scholarships-and-grants/tuition-fees-2016-2017/"><button type="button" class="menubtn tuefont">Tuition Fees</button></a>
@@ -66,8 +66,8 @@
       <a href="https://www.tue.nl/en/university/about-the-university/organization/support-services/ict-services/"><button type="button" class="menubtn tuefont">ICT Services</button></a>
       <a href="http://mytue.tue.nl"><button type="button" class="menubtn tuefont">MyTue</button></a>
       <a href="timeslots.php"><button type="button" class="menubtn tuefont">Timeslots</button></a>
-	  <a href="agenda.php"><button type="button" class="menubtn tuefont">Acedemic Year Agenda</button></a>
-	  <a href="https://www.tue.nl/"><button type="button" class="menubtn tuefont">Future Students</button></a>
+      <a href="agenda.php"><button type="button" class="menubtn tuefont">Acedemic Year Agenda</button></a>
+      <a href="https://www.tue.nl/"><button type="button" class="menubtn tuefont">Future Students</button></a>
     </div>
   </div>
 

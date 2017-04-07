@@ -36,8 +36,8 @@
                     <span class="glyphicon glyphicon-search"></span>
                   </button>
                 </span>
-              </form>
-            </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
